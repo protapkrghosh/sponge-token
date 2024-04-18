@@ -37,15 +37,15 @@ const BuySpongeToken = () => {
 
             <div className='md:w-1/2'>
               <div className='flex'>
-                <img src={spongeKid} alt="Image" className='w-[410px] 2xl:w-auto'/>
+                <img src={spongeKid} alt="Image" className='xl:pb-[10px] w-[410px] 2xl:w-[58%] xl:w-[71%]' />
               </div>
 
               <div>
                 {/* Card Four */}
-                <div className='bg-[#0C2251] cusShadow p-10 rounded-[20px] mt-4'>
-                  <h2 className='text-[#FDF44E] text-[40px] font-TTRoundsNeue font-bold 2xl:w-[55%]'>4. Buy SPONGE token</h2>
+                <div className='bg-[#0C2251] cusShadow p-10 rounded-[20px] mt-4 xl:w-[90%]'>
+                  <h2 className='text-[#FDF44E] text-[40px] font-TTRoundsNeue font-bold xl:w-[75%] xl:leading-[38.4px] tracking-[0.96px]'>4. Buy SPONGE <span className='xl:pl-[48px]'>token</span></h2>
 
-                  <p className='text-[#F4F4F4] font-poppins mt-4 leading-7 2xl:w-[58%]'>Buy $SPONGE token and join the revolution! Embrace the laughter, fun and potential gains. Secure your spot now. Hurry up!</p>
+                  <p className='text-[#F4F4F4] font-poppins mt-4 leading-7 2xl:w-[70%] xl:w-[85%]'>Buy $SPONGE token and join the revolution! Embrace the laughter, fun and potential gains. Secure your spot now. Hurry up!</p>
                 </div>
               </div>
             </div>
