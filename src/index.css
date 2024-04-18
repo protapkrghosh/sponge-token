@@ -16,8 +16,18 @@ body {
   background-color: #01133b;
 }
 
-.newUtilitiesAwaitConten {
-  color: rgba(237, 237, 237, 0.70);
+/* Banner */
+/* .csFontWeight {
+  font-weight: 900;
+} */
+
+.cusShadow {
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.15) inset;
+}
+
+/* About us */
+.clipPathBorder {
+  clip-path: polygon(34.9% 0%, 40.9% 12.5%, 100% 12.8%, 100% 100%, 85% 100%, 0% 100%, 0% 85%, 0% 0%);
 }
 
 @layer base {
