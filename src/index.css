@@ -30,6 +30,10 @@ body {
   clip-path: polygon(34.9% 0%, 40.9% 12.5%, 100% 12.8%, 100% 100%, 85% 100%, 0% 100%, 0% 85%, 0% 0%);
 }
 
+.newUtilitiesAwaitConten {
+  color: rgba(237, 237, 237, 0.70);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
