@@ -6,7 +6,7 @@ import borderShadowImg from '@/assets/WhyChooseSPONGE/div.elementor-background-o
 
 const WhyChooseSPONGE = () => {
   return (
-    <div className='xl:my-[140px]'>
+    <div className='xl:mt-[140px]'>
       <Container>
         {/* main section position */}
         <div className='lg:flex lg:gap-[50px]'>

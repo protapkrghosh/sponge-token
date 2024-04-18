@@ -16,6 +16,10 @@ body {
   background-color: #01133b;
 }
 
+.newUtilitiesAwaitConten {
+  color: rgba(237, 237, 237, 0.70);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
