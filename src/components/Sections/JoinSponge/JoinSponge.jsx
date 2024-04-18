@@ -12,7 +12,7 @@ const JoinSponge = () => {
 
           {/* image section  */}
           <div className='flex justify-around items-center'>
-            <img src={JoinSpongeImg} alt="image" />
+            <img className='z-40' src={JoinSpongeImg} alt="image" />
             <p className='text-[#FFF] font-TTRoundsNeue xl:text-[40px] font-bold lg:leading-[68px] xl:max-w-[564.758px] z-40'>JOIN $SPONGE AND LETS BARK OUR  WAY TO CRYPTO SPONGE TOGETHER!</p>
           </div>
 
