@@ -22,7 +22,7 @@ const WhyChooseSPONGE = () => {
               <img className='xl:w-auto absolute xl:right-16 xl:top-12' src={borderShadowImg} alt="image" />
               <img className='xl:pt-[40px] xl:pb-[24px]' src={solanaImg} alt="image" />
               <p className='text-[#FFF] font-TTRoundsNeue xl:text-[25px] font-bold leading-[32.5px]'>Solana's Speed</p>
-              <p className='text-[#FFF] font-inter lg:text-[18px] lg:leading-[28.8px] xl:pt-[16px] xl:pb-[46px] max-w-[518px]'>Take advantage of Solana's rapid transaction speed as
+              <p className='text-[#FFF] font-inter lg:text-[18px] lg:leading-[28.8px] xl:pt-[16px] xl:pb-[46px] max-w-[518px] z-40'>Take advantage of Solana's rapid transaction speed as
                 $SPONGE ensures swift and seamless transactions.</p>
             </div>
             {/* right side second card  */}
@@ -30,7 +30,7 @@ const WhyChooseSPONGE = () => {
               <img className='xl:w-auto absolute xl:right-16 xl:top-12' src={borderShadowImg} alt="image" />
               <img className='xl:pt-[40px] xl:pb-[24px]' src={communityImg} alt="image" />
               <p className='text-[#FFF] font-TTRoundsNeue xl:text-[25px] font-bold leading-[32.5px]'>Community-Focused</p>
-              <p className='text-[#FFF] font-inter lg:text-[18px] lg:leading-[28.8px] xl:pt-[16px] xl:pb-[46px] max-w-[488px]'>More than a simple coin, $SPONGE thrives on community
+              <p className='text-[#FFF] font-inter lg:text-[18px] lg:leading-[28.8px] xl:pt-[16px] xl:pb-[46px] max-w-[488px] z-40'>More than a simple coin, $SPONGE thrives on community
                 engagement. Join us as we create a dynamic space for
                 $SPONGE enthusiasts.</p>
             </div>
