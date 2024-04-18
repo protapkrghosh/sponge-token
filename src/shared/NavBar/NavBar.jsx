@@ -1,6 +1,6 @@
 import { IoMenu, IoClose } from "react-icons/io5";
 import { useState, useEffect } from "react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/banner/logo.png";
 import { Link } from "react-scroll";
 import { Button } from "@/components/ui/button";
 

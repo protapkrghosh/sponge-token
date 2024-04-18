@@ -16,6 +16,15 @@ body {
   background-color: #01133b;
 }
 
+/* Banner */
+/* .csFontWeight {
+  font-weight: 900;
+} */
+
+.cusShadow {
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.15) inset;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
