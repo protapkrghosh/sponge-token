@@ -1,9 +1,10 @@
+import WhyChooseSPONGE from '@/components/Sections/WhyChooseSponge/WhyChooseSponge';
 import React from 'react';
 
 const Home = () => {
   return (
     <div>
-      <h2>This is home content</h2>
+      <WhyChooseSPONGE />
     </div>
   );
 };
