@@ -301,10 +301,10 @@ const Banner = () => {
       </div>
 
 
-      {/* About us */}
+      {/********************** About us ***********************/}
       <div>
         <Container>
-          <div className=''>
+          <div>
             <div className='-mb-[460px] 2xl:-mb-[520px]'>
               <img src={clipBgBorder} alt="Image" className='w-full h-[540px]'/>
             </div>
