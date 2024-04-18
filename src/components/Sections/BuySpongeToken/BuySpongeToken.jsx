@@ -30,7 +30,7 @@ const BuySpongeToken = () => {
                 <div className='bg-[#0C2251] cusShadow p-10 rounded-[20px]'>
                   <h2 className='text-[#FDF44E] text-[40px] font-TTRoundsNeue font-bold'>3. Choose Amount to Buy</h2>
 
-                  <p className='text-[#F4F4F4] font-poppins mt-4 leading-7 2xl:w-[50%]'>Choose the amount to buy and join the community!</p>
+                  <p className='text-[#F4F4F4] font-poppins mt-4 leading-7 2xl:w-[50%] xl:pl-[45px]'>Choose the amount to buy and join the community!</p>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ const BuySpongeToken = () => {
                 <div className='bg-[#0C2251] cusShadow p-10 rounded-[20px] mt-4 xl:w-[90%]'>
                   <h2 className='text-[#FDF44E] text-[40px] font-TTRoundsNeue font-bold xl:w-[75%] xl:leading-[38.4px] tracking-[0.96px]'>4. Buy SPONGE <span className='xl:pl-[48px]'>token</span></h2>
 
-                  <p className='text-[#F4F4F4] font-poppins mt-4 leading-7 2xl:w-[70%] xl:w-[85%]'>Buy $SPONGE token and join the revolution! Embrace the laughter, fun and potential gains. Secure your spot now. Hurry up!</p>
+                  <p className='text-[#F4F4F4] font-poppins mt-4 leading-7 2xl:w-[65%] xl:w-[85%]'>Buy $SPONGE token and join the revolution! Embrace the laughter, fun and potential gains. Secure your spot now. Hurry up!</p>
                 </div>
               </div>
             </div>
