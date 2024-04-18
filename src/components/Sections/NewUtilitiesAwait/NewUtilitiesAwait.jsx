@@ -3,7 +3,7 @@ import Container from '../Container/Container';
 
 const NewUtilitiesAwait = () => {
   return (
-    <div className='xl:mt-[180px]'>
+    <div className='xl:mt-[180px] mb-20'>
       <Container>
         <div>
           {/* title section  */}
