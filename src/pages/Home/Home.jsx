@@ -1,9 +1,18 @@
 import React from 'react';
+import Banner from '@/components/Sections/Banner/Banner';
+import Roadmap from '@/components/Sections/Roadmap/Roadmap';
+import NewUtilitiesAwait from '@/components/Sections/NewUtilitiesAwait/NewUtilitiesAwait';
+import WhyChooseSPONGE from '@/components/Sections/WhyChooseSponge/WhyChooseSponge';
+import BuySpongeToken from '@/components/Sections/BuySpongeToken/BuySpongeToken';
 
 const Home = () => {
   return (
     <div>
-      <h2>This is home content</h2>
+      <Banner />
+      <BuySpongeToken />
+      <Roadmap />
+      <WhyChooseSPONGE />
+      <NewUtilitiesAwait />
     </div>
   );
 };
