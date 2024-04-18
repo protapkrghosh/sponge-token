@@ -30,8 +30,19 @@ body {
   clip-path: polygon(34.9% 0%, 40.9% 12.5%, 100% 12.8%, 100% 100%, 85% 100%, 0% 100%, 0% 85%, 0% 0%);
 }
 
+/* New Utilities Await   */
 .newUtilitiesAwaitConten {
   color: rgba(237, 237, 237, 0.70);
+}
+
+/* Join Sponge  */
+.joinSpongeMoon {
+  width: 409.959px;
+  height: 409.959px;
+  transform: rotate(92.493deg);
+  flex-shrink: 0;
+  border-radius: 409.959px;
+  background: linear-gradient(32deg, rgba(253, 244, 78, 0.13) 14.65%, rgba(151, 146, 47, 0.00) 42.72%);
 }
 
 @layer base {
