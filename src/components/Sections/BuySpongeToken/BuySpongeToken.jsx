@@ -4,7 +4,7 @@ import spongeKid from '@/assets/howToBuy/Group.png'
 
 const BuySpongeToken = () => {
   return (
-    <div className='2xl:mt-[186px] xl:mt-[180px] lg:mt-[200px] md:mt-[140px] mt-[80px]' id='bu'>
+    <div className='2xl:mt-[186px] xl:mt-[180px] lg:mt-[200px] md:mt-[140px] mt-[80px]' id='buy'>
       <Container>
         <div className='relative'>
           {/* Moon shape */}
