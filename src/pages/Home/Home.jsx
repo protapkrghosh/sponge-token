@@ -10,11 +10,11 @@ import Tokenomics from '@/components/Sections/Tokenomics/Tokenomics';
 const Home = () => {
   return (
     <div>
-      {/* <Banner /> */}
-      {/* <BuySpongeToken /> */}
-      {/* <Tokenomics /> */}
-      {/* <Roadmap /> */}
-      {/* <WhyChooseSPONGE /> */}
+      <Banner />
+      <BuySpongeToken />
+      <Tokenomics />
+      <Roadmap />
+      <WhyChooseSPONGE />
       <NewUtilitiesAwait />
       <JoinSponge />
     </div>
