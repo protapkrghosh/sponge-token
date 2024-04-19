@@ -5,12 +5,12 @@ const Roadmap = () => {
   return (
     <div className='bg-[#061C4C] mt-32'>
       <Container>
-        <div className='py-20'>
+        <div className='pt-20 pb-24'>
           <h1 className='text-[#fff] text-[64px] text-center font-TTRoundsNeue font-bold'>Road<span className='text-[#FDF44E]'>map</span></h1>
 
 
           {/* All Phase Card */}
-          <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-7 mt-16'>
+          <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-4 xl:gap-x-7 mt-16'>
             {/* Phase One */}
             <div>
               <div className='flex justify-center -mb-6'>
@@ -43,7 +43,7 @@ const Roadmap = () => {
                 </div>
               </div>
 
-              <div className='text-white font-poppins xl:text-[17px] 2xl:text-[18px] bg-[#0C2251] cusShadow rounded-[15px] pl-8 py-10'>
+              <div className='text-white font-poppins lg:text-[14px] xl:text-[17px] 2xl:text-[18px] bg-[#0C2251] cusShadow rounded-[15px] pl-4 xl:pl-8 py-10'>
                 <div className='flex items-center'>
                   <div className='w-3 h-3 bg-[#FDF44E] rounded-full mr-3' />
                   <p>Public Presale</p>
@@ -67,7 +67,7 @@ const Roadmap = () => {
                 </div>
               </div>
 
-              <div className='text-white font-poppins xl:text-[17px] 2xl:text-[18px] bg-[#0C2251] cusShadow rounded-[15px] pl-8 py-10'>
+              <div className='text-white font-poppins lg:text-[14px] xl:text-[17px] 2xl:text-[18px] bg-[#0C2251] cusShadow rounded-[15px] pl-4 xl:pl-8 py-10'>
                 <div className='flex items-center'>
                   <div className='w-3 h-3 bg-[#FDF44E] rounded-full mr-3' />
                   <p>Trending on X</p>
