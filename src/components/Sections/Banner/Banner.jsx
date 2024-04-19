@@ -118,19 +118,22 @@ const Banner = () => {
   return (
     <div>
       <div className='relative overflow-hidden' id='home'>
+
+        {/* Moon shape */}
+        <div className='bannerSpongeMoonRight absolute top-20 2xl:left-[500px]' />
+        <div className='bannerSpongeMoonLeft absolute top-[335px] 2xl:left-[220px]' />
+
         {/* Shadow and background */}
         <div className='h-[175vh] md:h-[265vh] lg:h-[185vh] xl:h-[160vh] 2xl:h-[130vh]'>
-          {/* <img src={moonImg} alt="Image" className='absolute top-0 -mt-20 w-full' /> */}
           <div className='pathShadow xl:w-[400px] 2xl:w-[450px] xl:h-[400px] 2xl:h-[450px] absolute blur-[250px] 2xl:blur-[300px]' />
-          {/* <img src={shapeImg} alt="Image" className='absolute top-0 left-0 w-full' /> */}
-          <img src={pathImg} alt="Image" className='absolute top-0 left-0' />
+          <img src={pathImg} alt="Image" className='absolute top-0 left-20' />
         </div>
 
         <div className='absolute top-12 md:top-32 lg:top-16 w-full'>
           <Container>
             <div className='flex flex-col-reverse lg:flex-row justify-between items-center'>
-              <div className='lg:w-1/2 mt-24 lg:mt-0'>
-                <h1 className='text-[50px] md:text-[46px] lg:text-[50px] xl:text-[50px] 2xl:text-[54px] text-white text-center lg:text-start font-TTRoundsNeue font-black tracking-wider uppercase '>Aye-aye, captain! Buy some <span className='text-[#FDF44E]'>$SPONGE!</span></h1>
+              <div className='lg:w-1/2 mt-24 lg:mt-0 z-40'>
+                <h1 className='text-[50px] md:text-[46px] lg:text-[50px] xl:text-[50px] 2xl:text-[54px] text-white text-center lg:text-start font-TTRoundsNeue font-black tracking-wider uppercase'>Aye-aye, captain! Buy some <span className='text-[#FDF44E]'>$SPONGE!</span></h1>
 
                 <div className='md:text-[18px] text-white font-poppins text-center lg:text-start lg:w-[90%] xl:w-[80%] 2xl:w-[100%] mt-7 mb-12 space-y-5'>
                   <p>We're thrilled to introduce you to a revolutionary digital asset built on the Solana blockchain: the $SPONGE coin.</p>
@@ -306,7 +309,7 @@ const Banner = () => {
         <Container>
           <div>
             <div className='-mb-[460px] 2xl:-mb-[520px]'>
-              <img src={clipBgBorder} alt="Image" className='w-full h-[540px]'/>
+              <img src={clipBgBorder} alt="Image" className='w-full h-[540px]' />
             </div>
 
             <div className='md:flex justify-between items-center px-10'>
@@ -321,7 +324,7 @@ const Banner = () => {
               </div>
 
               <div className='md:w-1/2 flex justify-end'>
-                <img src={aboutKids} alt="Image" className='w-[75%] 2xl:w-[70%] mt-10 2xl:mt-24'/>
+                <img src={aboutKids} alt="Image" className='w-[75%] 2xl:w-[70%] mt-10 2xl:mt-24' />
               </div>
             </div>
           </div>
