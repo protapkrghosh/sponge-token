@@ -65,6 +65,13 @@ body {
   background: linear-gradient(32deg, rgba(253, 244, 78, 0.13) 14.65%, rgba(151, 146, 47, 0.00) 42.72%);
 }
 
+/* Join Sponge shadow */
+.joinShadow {
+  flex-shrink: 0;
+  background: #efe413f6;
+  filter: blur(200px);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
