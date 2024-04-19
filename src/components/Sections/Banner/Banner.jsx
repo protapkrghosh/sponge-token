@@ -148,13 +148,11 @@ const Banner = () => {
                     </button>
                   </Link>
 
-                  <Link to="home" smooth={true} offset={-30} duration={600}>
-                    <button className="text-[#000] hover:text-[#fff] bg-[#fff] hover:bg-transparent border-2 border-transparent hover:border-[#fff] rounded-full group cursor-pointer px-7 md:px-12 py-[10px] md:py-[14px] duration-300">
-                      <span className="flex justify-center items-center">
-                        <p className='md:text-[18px] 2xl:text-[19px] font-poppins font-semibold mr-2'>Telegram</p>
-                      </span>
-                    </button>
-                  </Link>
+                  <button className="text-[#000] hover:text-[#fff] bg-[#fff] hover:bg-transparent border-2 border-transparent hover:border-[#fff] rounded-full group cursor-pointer px-7 md:px-12 py-[10px] md:py-[14px] duration-300">
+                    <span className="flex justify-center items-center">
+                      <p className='md:text-[18px] 2xl:text-[19px] font-poppins font-semibold mr-2'>Telegram</p>
+                    </span>
+                  </button>
                 </div>
               </div>
 
@@ -306,10 +304,10 @@ const Banner = () => {
       </div>
 
       {/* Custom Shadow */}
-      <div className='bannerShadowRight w-[200px] h-[150px] md:w-[300px] md:h-[200px] lg:w-[300px] lg:h-[200px] xl:w-[400px] xl:h-[270px] absolute right-0 -bottom-[280px] md:-bottom-96 xl:-bottom-14'/>
+      <div className='bannerShadowRight w-[200px] h-[150px] md:w-[300px] md:h-[200px] lg:w-[300px] lg:h-[200px] xl:w-[400px] xl:h-[270px] absolute right-0 -bottom-[280px] md:-bottom-96 xl:-bottom-14' />
 
 
-      
+
 
       {/********************** About us ***********************/}
       <div className='-mt-10 lg:-mt-20 xl:-mt-32 2xl:-mt-52' id='about'>
@@ -318,7 +316,7 @@ const Banner = () => {
             <div className='-mb-[460px] 2xl:-mb-[480px] hidden lg:block'>
               <img src={clipBgBorder} alt="Image" className='w-full h-[510px] xl:h-[540px]' />
             </div>
-            
+
             <div className='relative'>
               {/* Shape Image */}
               <img src={aboutNetShapeImg} alt="Image" className='absolute left-[350px] lg:left-[450px] xl:left-[630px] top-36 lg:top-52 xl:top-36 w-[370px] lg:w-[220px] xl:w-[370px] hidden lg:block' data-aos="zoom-in" data-aos-duration="1200" />
