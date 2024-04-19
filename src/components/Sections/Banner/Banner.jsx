@@ -191,7 +191,7 @@ const Banner = () => {
                   {/* Content Card */}
                   <div className='relative'>
                     {/* Shape Image */}
-                    <img src={netShapeImg} alt="Image" className='absolute left-44 top-7 z-10 w-[200px]' />
+                    <img src={netShapeImg} alt="Image" className='absolute left-[155px] md:left-44 top-16 md:top-7 z-10 w-[100px] md:w-[200px]' />
 
                     <div className='mt-5'>
                       <div className='bg-gradient-to-t from-[#182940] to-[#051945] border border-[#FDF44E] rounded-[15px] backdrop-blur-[18px] px-6 py-5'>
