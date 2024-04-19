@@ -117,22 +117,23 @@ const Banner = () => {
       <div className='relative overflow-hidden z-40' id='home'>
 
         {/* Moon shape */}
-        <div className='bannerSpongeMoonRight w-[370px] h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-40 2xl:top-20 xl:left-[300px] 2xl:left-[500px]' />
-        <div className='bannerSpongeMoonLeft w-[370px] h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-[335px] xl:top-[400px] 2xl:top-[335px] 2xl:left-[220px]' />
+        <div className='bannerSpongeMoonRight lg:w-[300px] lg:h-[300px] xl:w-[370px] xl:h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-40 lg:top-48 xl:top-40 2xl:top-20 lg:left-[195px]  xl:left-[300px] 2xl:left-[500px]' />
+
+        <div className='bannerSpongeMoonLeft w-[370px] h-[370px] lg:w-[300px] lg:h-[300px] xl:w-[370px] xl:h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-[400px] lg:top-[470px] xl:top-[400px] 2xl:top-[335px] 2xl:left-[220px]' />
 
         {/* Shadow and background */}
         <div className='h-[175vh] md:h-[265vh] lg:h-[185vh] xl:h-[160vh] 2xl:h-[130vh]'>
           <div className='pathShadow xl:w-[400px] 2xl:w-[450px] xl:h-[400px] 2xl:h-[450px] absolute blur-[250px] 2xl:blur-[300px]' />
-          <img src={pathImg} alt="Image" className='absolute top-0 left-0 2xl:left-20 w-[300px] 2xl:w-auto' />
+          <img src={pathImg} alt="Image" className='absolute top-0 left-0 2xl:left-20 w-[280px] xl:w-[300px] 2xl:w-auto' />
         </div>
 
         <div className='absolute top-12 md:top-32 lg:top-16 w-full'>
           <Container>
             <div className='flex flex-col-reverse lg:flex-row justify-between items-center'>
               <div className='lg:w-1/2 mt-24 lg:mt-0 z-40'>
-                <h1 className='text-[50px] md:text-[46px] lg:text-[50px] xl:text-[50px] 2xl:text-[54px] text-white text-center lg:text-start font-TTRoundsNeue font-black tracking-wider uppercase'>Aye-aye, captain! Buy some <span className='text-[#FDF44E]'>$SPONGE!</span></h1>
+                <h1 className='text-[50px] md:text-[46px] lg:text-[39px] xl:text-[50px] 2xl:text-[54px] text-white text-center lg:text-start font-TTRoundsNeue font-black tracking-wider uppercase'>Aye-aye, captain! Buy some <span className='text-[#FDF44E]'>$SPONGE!</span></h1>
 
-                <div className='md:text-[18px] xl:text-[16px] 2xl:text-[18px] text-white font-poppins text-center lg:text-start lg:w-[90%] xl:w-[95%] 2xl:w-full mt-7 mb-12 space-y-5'>
+                <div className='md:text-[16px] xl:text-[16px] 2xl:text-[18px] text-white font-poppins text-center lg:text-start lg:w-[90%] xl:w-[95%] 2xl:w-full mt-7 mb-12 space-y-5'>
                   <p>We're thrilled to introduce you to a revolutionary digital asset built on the Solana blockchain: the $SPONGE coin.</p>
 
                   <p>Innovation, efficiency, and sustainability in the ever-evolving world of decentralized finance. With lightning-fast transaction speeds and minimal fees.</p>
@@ -309,7 +310,7 @@ const Banner = () => {
 
 
       {/********************** About us ***********************/}
-      <div className='xl:-mt-32 2xl:-mt-52'>
+      <div className='-mt-20 xl:-mt-32 2xl:-mt-52'>
         <Container>
           <div>
             <div className='-mb-[460px] 2xl:-mb-[480px]'>
@@ -318,21 +319,21 @@ const Banner = () => {
             
             <div className='relative'>
               {/* Shape Image */}
-              <img src={aboutNetShapeImg} alt="Image" className='absolute left-[630px] top-36 w-[370px]' />
+              <img src={aboutNetShapeImg} alt="Image" className='absolute left-[350px] lg:left-[480px] xl:left-[630px] top-36 lg:top-52 xl:top-36 w-[370px] lg:w-[220px] xl:w-[370px]' />
 
               <div className='md:flex justify-between items-center px-12'>
                 <div className='md:w-1/2'>
-                  <h1 className='text-white text-[70px] font-bold font-TTRoundsNeue uppercase'>Abo<span className='text-[#FDF44E]'>ut us</span></h1>
+                  <h1 className='text-white text-[58px] xl:text-[70px] font-bold font-TTRoundsNeue uppercase'>Abo<span className='text-[#FDF44E]'>ut us</span></h1>
 
-                  <div className='text-[#fff] text-[18px] font-poppins space-y-4 mt-6'>
-                    <p className='2xl:w-[95%]'>Welcome to Sponge coin, where innovation meets opportunity. As a leading player in the burgeoning world of decentralized finance (DeFi), Sponge coin is committed to pioneering solutions that empower individuals and communities worldwide.</p>
+                  <div className='text-[#fff] xl:text-[18px] font-poppins space-y-4 mt-6'>
+                    <p className=' 2xl:w-[95%]'>Welcome to Sponge coin, where innovation meets opportunity. As a leading player in the burgeoning world of decentralized finance (DeFi), Sponge coin is committed to pioneering solutions that empower individuals and communities worldwide.</p>
 
                     <p className='2xl:w-[97%]'>Our mission is to democratize access to financial services by leveraging the unparalleled speed and scalability of the Solana blockchain. With a team of dedicated experts and a vision for a more inclusive financial landscape, Sponge coin is poised to redefine the way we transact...</p>
                   </div>
                 </div>
 
                 <div className='md:w-1/2 flex justify-end'>
-                  <img src={aboutKids} alt="Image" className='w-[75%] 2xl:w-[70%] mt-10 2xl:mt-20' />
+                  <img src={aboutKids} alt="Image" className='w-[80%] xl:w-[75%] 2xl:w-[70%] mt-10 2xl:mt-20' />
                 </div>
               </div>
             </div>
