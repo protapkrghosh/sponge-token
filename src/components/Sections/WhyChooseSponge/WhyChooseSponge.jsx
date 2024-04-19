@@ -1,7 +1,7 @@
 import Container from '../Container/Container';
+import communityImg from '@/assets/WhyChooseSPONGE/Black.png';
 import whyChooseImg from '@/assets/WhyChooseSPONGE/Group 1000003561.png';
 import solanaImg from '@/assets/WhyChooseSPONGE/Group 1000003522.png';
-import communityImg from '@/assets/WhyChooseSPONGE/Black.png';
 import borderShadowImg from '@/assets/WhyChooseSPONGE/div.elementor-background-overlay.png';
 
 const WhyChooseSPONGE = () => {
