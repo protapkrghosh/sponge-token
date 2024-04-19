@@ -5,23 +5,23 @@ import JoinSpongeborder from '@/assets/JoinSponge/div.elementor-background-overl
 
 const JoinSponge = () => {
   return (
-    <div className='xl:my-[140px] lg:my-[120px]'>
+    <div className='xl:my-[140px] lg:my-[120px] my-[100px]'>
       <Container>
         {/* main section  */}
         <div className='relative'>
 
           {/* image section  */}
-          <div className='flex justify-around items-center'>
-            <img className='xl:w-auto lg:w-[32%] z-40' src={JoinSpongeImg} alt="image" />
-            <p className='text-[#FFF] font-TTRoundsNeue xl:text-[40px] lg:text-[30px] font-bold lg:leading-[68px] lg:w-[45%] z-40'>JOIN $SPONGE AND LETS BARK OUR  WAY TO CRYPTO SPONGE TOGETHER!</p>
+          <div className='lg:flex justify-around items-center'>
+            <img className='lg:mx-0 mx-auto xl:w-auto lg:w-[32%] md:w-[45%] w-[85%] lg:mb-0 md:mb-16 mb-10 z-40' src={JoinSpongeImg} alt="image" />
+            <p className='text-[#FFF] lg:text-start text-center font-TTRoundsNeue xl:text-[40px] lg:text-[30px] md:text-[30px] text-[20px] font-bold lg:leading-[68px] lg:w-[45%] z-40'>JOIN $SPONGE AND LETS BARK OUR  WAY TO CRYPTO SPONGE TOGETHER!</p>
           </div>
 
           {/* moon section  */}
-          <div className='joinSpongeMoon xl:h-[400px] lg:h-[300px] xl:w-[400px] lg:w-[300px] absolute 2xl:top-[2px] xl:top-[5px] lg:top-[5px] 2xl:left-[510px] xl:left-[475px] lg:left-[375px]' />
+          <div className='lg:block hidden joinSpongeMoon xl:h-[400px] lg:h-[300px] xl:w-[400px] lg:w-[300px] absolute 2xl:top-[2px] xl:top-[5px] lg:top-[5px] 2xl:left-[510px] xl:left-[475px] lg:left-[375px]' />
 
           {/* border section  */}
-          <img className='xl:w-auto lg:w-[40%] absolute 2xl:right-[-50px] xl:right-[-60px] lg:right-[-90px] 2xl:top-[68px] xl:top-[68px] lg:top-[38px]' src={JoinSpongeborder} alt="" />
-          <img className='xl:w-auto lg:w-[40%] absolute 2xl:left-[-50px] xl:left-[-50px] lg:left-[-30px] 2xl:top-[-55px] xl:top-[-55px] lg:top-[-40px] z-50' src={JoinSpongeborder} alt="" />
+          <img className='lg:block hidden xl:w-auto lg:w-[40%] absolute 2xl:right-[-50px] xl:right-[-60px] lg:right-[-90px] 2xl:top-[68px] xl:top-[68px] lg:top-[38px]' src={JoinSpongeborder} alt="" />
+          <img className='lg:block hidden xl:w-auto lg:w-[40%] absolute 2xl:left-[-50px] xl:left-[-50px] lg:left-[-30px] 2xl:top-[-55px] xl:top-[-55px] lg:top-[-40px] z-50' src={JoinSpongeborder} alt="" />
 
         </div>
 
