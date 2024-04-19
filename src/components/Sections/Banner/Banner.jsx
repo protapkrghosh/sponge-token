@@ -306,7 +306,7 @@ const Banner = () => {
       </div>
 
       {/* Custom Shadow */}
-      <div className='bannerShadowRight w-[400px] h-[270px] absolute right-0 -bottom-14'/>
+      <div className='bannerShadowRight w-[400px] h-[270px] lg:w-[300px] lg:h-[200px] xl:w-[400px] xl:h-[270px] absolute right-0 -bottom-96 xl:-bottom-14'/>
 
 
       {/********************** About us ***********************/}
@@ -319,11 +319,11 @@ const Banner = () => {
             
             <div className='relative'>
               {/* Shape Image */}
-              <img src={aboutNetShapeImg} alt="Image" className='absolute left-[350px] lg:left-[480px] xl:left-[630px] top-36 lg:top-52 xl:top-36 w-[370px] lg:w-[220px] xl:w-[370px]' />
+              <img src={aboutNetShapeImg} alt="Image" className='absolute left-[350px] lg:left-[450px] xl:left-[630px] top-36 lg:top-52 xl:top-36 w-[370px] lg:w-[220px] xl:w-[370px]' />
 
               <div className='md:flex justify-between items-center px-12'>
                 <div className='md:w-1/2'>
-                  <h1 className='text-white text-[58px] xl:text-[70px] font-bold font-TTRoundsNeue uppercase'>Abo<span className='text-[#FDF44E]'>ut us</span></h1>
+                  <h1 className='text-white text-[55px] xl:text-[70px] font-bold font-TTRoundsNeue uppercase'>Abo<span className='text-[#FDF44E]'>ut us</span></h1>
 
                   <div className='text-[#fff] xl:text-[18px] font-poppins space-y-4 mt-6'>
                     <p className=' 2xl:w-[95%]'>Welcome to Sponge coin, where innovation meets opportunity. As a leading player in the burgeoning world of decentralized finance (DeFi), Sponge coin is committed to pioneering solutions that empower individuals and communities worldwide.</p>
