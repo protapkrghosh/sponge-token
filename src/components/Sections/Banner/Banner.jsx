@@ -5,7 +5,7 @@ import ellipse from '@/assets/banner/Ellipse 2.png'
 import arrowImg from "@/assets/banner/Group 10.png"
 import logoImg from "@/assets/banner/logo.png"
 import pathImg from '@/assets/banner/bgShape.png'
-import shapeImg from '@/assets/banner/Ellipse 482.png'
+import netShapeImg from '@/assets/banner/elementor.png'
 import Container from '../Container/Container';
 import { Button } from '@/components/ui/button';
 import { useEffect, useState } from 'react'
@@ -64,10 +64,6 @@ const Banner = () => {
         <span className="bg-[#1a2f5b] cusShadow px-4 py-3 mx-3 font-bold text-lg md:text-[32px] rounded-[10px]">
           {timeLeft[interval]}
         </span>{" "}
-
-        {/* <span className="text-white text-[13px] md:text-[16px] uppercase absolute top-10 left-[16px] md:left-[22px] mt-[10px] md:mt-[15px]">
-          {interval.slice(0, interval.length - 1)}
-        </span>{" "} */}
       </span>
     );
   });
@@ -117,7 +113,7 @@ const Banner = () => {
 
   return (
     <div>
-      <div className='relative overflow-hidden' id='home'>
+      <div className='relative overflow-hidden z-40' id='home'>
 
         {/* Moon shape */}
         <div className='bannerSpongeMoonRight absolute top-20 2xl:left-[500px]' />
@@ -190,110 +186,114 @@ const Banner = () => {
                   }
 
 
-
                   {/* Content Card */}
-                  <div className='mt-5'>
-                    <div className='bg-[#051945] border border-[#FDF44E] rounded-[15px] backdrop-blur-[18px] px-6 py-5'>
-                      <div className='space-y-2'>
-                        <div className='flex justify-between items-center'>
-                          <p className='text-white'>Token Name:</p>
-                          <p className='text-[#FDF44E] font-semibold uppercase'>Sponge</p>
-                        </div>
+                  <div className='relative'>
+                    {/* Shape Image */}
+                    <img src={netShapeImg} alt="Image" className='absolute left-44 top-7 z-10 w-[200px]' />
 
-                        <div className='flex justify-between items-center'>
-                          <p className='text-white'>Presale Price:</p>
-                          <p className='text-[#FDF44E] font-semibold uppercase'>$0.0001</p>
-                        </div>
-
-                        <div className='flex justify-between items-center'>
-                          <p className='text-white'>Launch Price:</p>
-                          <p className='text-[#FDF44E] font-semibold uppercase'>$0.0003</p>
-                        </div>
-
-                        <div className='flex justify-between items-center'>
-                          <p className='text-white'>Presale Bonus:</p>
-                          <p className='text-[#FDF44E] font-semibold uppercase'>15%</p>
-                        </div>
-
-                        <div className='flex justify-between items-center'>
-                          <p className='text-white'>Max Buy:</p>
-                          <p className='text-[#FDF44E] font-semibold uppercase'>25 SOL</p>
-                        </div>
-
-                        <div className='flex justify-between items-center'>
-                          <p className='text-white'>Min Buy:</p>
-                          <p className='text-[#FDF44E] font-semibold uppercase'>0.5 SOL</p>
-                        </div>
-                      </div>
-
-                      {/* Presale sold */}
-                      <div className='rounded-[8px] mt-3'>
-                        <div className='bg-[#0C2251] cusShadow rounded-[8px] px-3 pt-1 pb-2'>
+                    <div className='mt-5'>
+                      <div className='bg-gradient-to-t from-[#182940] to-[#051945] border border-[#FDF44E] rounded-[15px] backdrop-blur-[18px] px-6 py-5'>
+                        <div className='space-y-2'>
                           <div className='flex justify-between items-center'>
-                            <p className='text-white'>Presale sold</p>
-                            <p className='text-[#FDF44E] font-semibold'>87%</p>
+                            <p className='text-white'>Token Name:</p>
+                            <p className='text-[#FDF44E] font-semibold uppercase'>Sponge</p>
                           </div>
 
-                          {/* <Slider defaultValue={[50]} max={100} step={5} className="my-3 cursor-pointer" /> */}
-                          <Progress value={presalePercentage} className="mt-1" />
-                        </div>
-                      </div>
+                          <div className='flex justify-between items-center'>
+                            <p className='text-white'>Presale Price:</p>
+                            <p className='text-[#FDF44E] font-semibold uppercase'>$0.0001</p>
+                          </div>
 
-                      <div className='flex justify-between mt-6 mb-3'>
-                        <p className='text-white font-inter font-normal'>Amount in SOL you pay:</p>
-                        {/* <div className='flex items-center'>
+                          <div className='flex justify-between items-center'>
+                            <p className='text-white'>Launch Price:</p>
+                            <p className='text-[#FDF44E] font-semibold uppercase'>$0.0003</p>
+                          </div>
+
+                          <div className='flex justify-between items-center'>
+                            <p className='text-white'>Presale Bonus:</p>
+                            <p className='text-[#FDF44E] font-semibold uppercase'>15%</p>
+                          </div>
+
+                          <div className='flex justify-between items-center'>
+                            <p className='text-white'>Max Buy:</p>
+                            <p className='text-[#FDF44E] font-semibold uppercase'>25 SOL</p>
+                          </div>
+
+                          <div className='flex justify-between items-center'>
+                            <p className='text-white'>Min Buy:</p>
+                            <p className='text-[#FDF44E] font-semibold uppercase'>0.5 SOL</p>
+                          </div>
+                        </div>
+
+                        {/* Presale sold */}
+                        <div className='rounded-[8px] mt-3'>
+                          <div className='bg-[#0C2251] cusShadow rounded-[8px] px-3 pt-1 pb-2'>
+                            <div className='flex justify-between items-center'>
+                              <p className='text-white'>Presale sold</p>
+                              <p className='text-[#FDF44E] font-semibold'>87%</p>
+                            </div>
+
+                            {/* <Slider defaultValue={[50]} max={100} step={5} className="my-3 cursor-pointer" /> */}
+                            <Progress value={presalePercentage} className="mt-1" />
+                          </div>
+                        </div>
+
+                        <div className='flex justify-between mt-6 mb-3'>
+                          <p className='text-white font-inter font-normal'>Amount in SOL you pay:</p>
+                          {/* <div className='flex items-center'>
                         <img src={walletImg} alt="Image" />
                         <p className='text-white font-normal ml-1'>0.00 SOL</p>
                       </div> */}
-                      </div>
-
-                      {/* SOL Input */}
-                      <div className='relative'>
-                        <div className='flex items-center absolute mt-[4px] bg-[#15274d] cusShadow px-4 py-1 ml-2 rounded-[8px]'>
-                          <img src={ellipse} alt="Image" className='w-[32px] rounded-full' />
-                          <p className='text-white font-inter font-normal ml-2 uppercase'>SOL</p>
                         </div>
 
-                        {/* SOL input filed */}
-                        <div className='rounded-[5px]'>
-                          <Input id="myInput" placeholder="0.00" className="text-white placeholder:text-white placeholder:text-opacity-65 text-end border-none bg-[#0C2251] cusShadow rounded-[5px]" />
-                        </div>
-                      </div>
-
-                      {/* custom range button */}
-                      <div className='relative mt-7 mb-2'>
-                        <div className='h-[2.5px] bg-[#FDF44E] rounded-[70px] mt-[6px]' />
-
-                        <div>
-                          <button className='cursor-default'>
-                            <img src={arrowImg} alt="Image" className='w-[35px] absolute top-[-16px] left-[45%] md:left-[47%]' />
-                          </button>
-                        </div>
-                      </div>
-
-                      {/* Sponge Input filed */}
-                      <div>
-                        <p className='text-white font-inter font-normal mb-2'>Amount in SPO you receive:</p>
-
+                        {/* SOL Input */}
                         <div className='relative'>
-                          <div className='flex items-center absolute mt-[5px] bg-[#15274d] cusShadow px-4 py-1 ml-2 rounded-[8px]'>
-                            <img src={logoImg} alt="Image" className='w-[32px]' />
-                            <p className='text-white font-inter font-normal ml-2 uppercase'>Sponge</p>
+                          <div className='flex items-center absolute mt-[4px] bg-[#15274d] cusShadow px-4 py-1 ml-2 rounded-[8px]'>
+                            <img src={ellipse} alt="Image" className='w-[32px] rounded-full' />
+                            <p className='text-white font-inter font-normal ml-2 uppercase'>SOL</p>
                           </div>
 
-
-                          {/* Sponge input filed  */}
+                          {/* SOL input filed */}
                           <div className='rounded-[5px]'>
-                            <Input id="satInput" readOnly className="text-white placeholder:text-white text-end border-none bg-[#0C2251] cusShadow rounded-[5px]" />
+                            <Input id="myInput" placeholder="0.00" className="text-white placeholder:text-white placeholder:text-opacity-65 text-end border-none bg-[#0C2251] cusShadow rounded-[5px]" />
                           </div>
                         </div>
+
+                        {/* custom range button */}
+                        <div className='relative mt-7 mb-2'>
+                          <div className='h-[2.5px] bg-[#FDF44E] rounded-[70px] mt-[6px]' />
+
+                          <div>
+                            <button className='cursor-default'>
+                              <img src={arrowImg} alt="Image" className='w-[35px] absolute top-[-16px] left-[45%] md:left-[47%]' />
+                            </button>
+                          </div>
+                        </div>
+
+                        {/* Sponge Input filed */}
+                        <div>
+                          <p className='text-white font-inter font-normal mb-2'>Amount in SPO you receive:</p>
+
+                          <div className='relative'>
+                            <div className='flex items-center absolute mt-[5px] bg-[#15274d] cusShadow px-4 py-1 ml-2 rounded-[8px]'>
+                              <img src={logoImg} alt="Image" className='w-[32px]' />
+                              <p className='text-white font-inter font-normal ml-2 uppercase'>Sponge</p>
+                            </div>
+
+
+                            {/* Sponge input filed  */}
+                            <div className='rounded-[5px]'>
+                              <Input id="satInput" readOnly className="text-white placeholder:text-white text-end border-none bg-[#0C2251] cusShadow rounded-[5px]" />
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Connect Wallet */}
+                        <Button className="w-full bg-[#FDF44E] hover:bg-[#051945] text-black hover:text-white text-[18px] font-bold font-TTRoundsNeue rounded-[10px] px-12 py-6 mt-6 duration-300" userInput={solInput}> Connect Wallet </Button>
+
+                        {/* <SendSolForm userInput={solValue}> Connect Wallet </SendSolForm> */}
+
                       </div>
-
-                      {/* Connect Wallet */}
-                      <Button className="w-full bg-[#FDF44E] hover:bg-[#051945] text-black hover:text-white text-[18px] font-bold font-TTRoundsNeue rounded-[10px] px-12 py-6 mt-6 duration-300" userInput={solInput}> Connect Wallet </Button>
-
-                      {/* <SendSolForm userInput={solValue}> Connect Wallet </SendSolForm> */}
-
                     </div>
                   </div>
                 </div>
@@ -302,6 +302,9 @@ const Banner = () => {
           </Container>
         </div>
       </div>
+
+      {/* Custom Shadow */}
+      <div className='bannerShadowRight w-[400px] h-[370px] absolute right-0 -bottom-72'/>
 
 
       {/********************** About us ***********************/}
