@@ -7,11 +7,11 @@ const Tokenomics = () => {
   
 
   return (
-    <div className='pt-44 pb-12' id='tokenomics'>
+    <div className='pt-72 lg:pt-40 xl:pt-44 lg:pb-12' id='tokenomics'>
       <div>
         <Container>
           <div className='relative'>
-            <div className='absolute bottom-12 xl:bottom-12'>
+            <div className='absolute md:bottom-32 lg:bottom-12 xl:bottom-12'>
               <h1 className='text-[#fff] text-[38px] lg:text-[55px] xl:text-[64px] font-TTRoundsNeue font-bold mb-9'>Tokeno<span className='text-[#FDF44E]'>mics</span></h1>
 
               <div className='space-y-5 xl:space-y-7'>
@@ -63,8 +63,8 @@ const Tokenomics = () => {
             </div>
 
             {/* Pie chart area */}
-            <div>
-              <img src={chatImg} alt="Image" className='lg:min-w-[990px] xl:min-w-[1250px] 2xl:min-w-[1370px]' />
+            <div className=''>
+              <img src={chatImg} alt="Image" className='md:min-w-[700px] lg:min-w-[990px] xl:min-w-[1250px] 2xl:min-w-[1370px]' />
             </div>
           </div>
         </Container>
