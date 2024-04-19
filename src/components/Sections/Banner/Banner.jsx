@@ -117,13 +117,13 @@ const Banner = () => {
       <div className='relative overflow-hidden z-40' id='home'>
 
         {/* Moon shape */}
-        <div className='bannerSpongeMoonRight absolute top-20 2xl:left-[500px]' />
-        <div className='bannerSpongeMoonLeft absolute top-[335px] 2xl:left-[220px]' />
+        <div className='bannerSpongeMoonRight w-[370px] h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-40 2xl:top-20 xl:left-[300px] 2xl:left-[500px]' />
+        <div className='bannerSpongeMoonLeft w-[370px] h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-[335px] xl:top-[400px] 2xl:top-[335px] 2xl:left-[220px]' />
 
         {/* Shadow and background */}
         <div className='h-[175vh] md:h-[265vh] lg:h-[185vh] xl:h-[160vh] 2xl:h-[130vh]'>
           <div className='pathShadow xl:w-[400px] 2xl:w-[450px] xl:h-[400px] 2xl:h-[450px] absolute blur-[250px] 2xl:blur-[300px]' />
-          <img src={pathImg} alt="Image" className='absolute top-0 left-20' />
+          <img src={pathImg} alt="Image" className='absolute top-0 left-0 2xl:left-20 w-[300px] 2xl:w-auto' />
         </div>
 
         <div className='absolute top-12 md:top-32 lg:top-16 w-full'>
@@ -132,7 +132,7 @@ const Banner = () => {
               <div className='lg:w-1/2 mt-24 lg:mt-0 z-40'>
                 <h1 className='text-[50px] md:text-[46px] lg:text-[50px] xl:text-[50px] 2xl:text-[54px] text-white text-center lg:text-start font-TTRoundsNeue font-black tracking-wider uppercase'>Aye-aye, captain! Buy some <span className='text-[#FDF44E]'>$SPONGE!</span></h1>
 
-                <div className='md:text-[18px] text-white font-poppins text-center lg:text-start lg:w-[90%] xl:w-[80%] 2xl:w-[100%] mt-7 mb-12 space-y-5'>
+                <div className='md:text-[18px] xl:text-[16px] 2xl:text-[18px] text-white font-poppins text-center lg:text-start lg:w-[90%] xl:w-[95%] 2xl:w-full mt-7 mb-12 space-y-5'>
                   <p>We're thrilled to introduce you to a revolutionary digital asset built on the Solana blockchain: the $SPONGE coin.</p>
 
                   <p>Innovation, efficiency, and sustainability in the ever-evolving world of decentralized finance. With lightning-fast transaction speeds and minimal fees.</p>
@@ -309,7 +309,7 @@ const Banner = () => {
 
 
       {/********************** About us ***********************/}
-      <div className='2xl:-mt-52'>
+      <div className='xl:-mt-32 2xl:-mt-52'>
         <Container>
           <div>
             <div className='-mb-[460px] 2xl:-mb-[480px]'>
