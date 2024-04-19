@@ -37,7 +37,7 @@ body {
 
 .bannerShadowRight {
   flex-shrink: 0;
-  background: #efe413ec;
+  background: #efe413f6;
   filter: blur(285px);
 }
 
