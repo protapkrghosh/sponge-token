@@ -49,7 +49,7 @@ const Tokenomics = () => {
   }, [])
 
   return (
-    <div className='mt-20'>
+    <div className='pt-20' id='tokenomics'>
       <Container>
         <div className='md:flex justify-between'>
           <div className='md:w-1/2'>

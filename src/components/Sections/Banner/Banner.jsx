@@ -310,7 +310,7 @@ const Banner = () => {
 
 
       {/********************** About us ***********************/}
-      <div className='-mt-20 xl:-mt-32 2xl:-mt-52'>
+      <div className='-mt-20 xl:-mt-32 2xl:-mt-52' id='about'>
         <Container>
           <div>
             <div className='-mb-[460px] 2xl:-mb-[480px]'>

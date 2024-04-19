@@ -4,7 +4,7 @@ import spongeKid from '@/assets/howToBuy/Group.png'
 
 const BuySpongeToken = () => {
   return (
-    <div className='mt-32'>
+    <div className='mt-32' id='buy'>
       <Container>
         <div>
           <h1 className='text-[#fff] text-[64px] text-center font-TTRoundsNeue font-bold'>How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
