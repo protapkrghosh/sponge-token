@@ -6,7 +6,10 @@ const BuySpongeToken = () => {
   return (
     <div className='mt-32' id='buy'>
       <Container>
-        <div>
+        <div className='relative'>
+          {/* Moon shape */}
+          <div className='aboutMoonShape lg:w-[300px] lg:h-[300px] xl:w-[370px] xl:h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-40 lg:-top-5 lg:left-[650px] xl:left-[800px] 2xl:left-[750px] hidden lg:block' />
+
           <h1 className='text-[#fff] text-[64px] text-center font-TTRoundsNeue font-bold' data-aos="fade-up" data-aos-duration="1000">How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
 
           <div className='lg:flex justify-between items-center gap-7 mt-14'>
