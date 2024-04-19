@@ -43,9 +43,11 @@ const Footer = () => {
               </div>
 
               {/* Action button */}
-              <div className='flex items-center'>
-                <Button className="bg-[#152745] hover:bg-[#1c325f] text-[16px] font-TTRoundsNeue font-normal duration-300">Buy Now</Button>
-              </div>
+              <Link to="home" smooth={true} offset={-30} duration={600}>
+                <div className='flex items-center'>
+                  <Button className="bg-[#152745] hover:bg-[#1c325f] text-[16px] font-TTRoundsNeue font-normal duration-300">Buy Now</Button>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
