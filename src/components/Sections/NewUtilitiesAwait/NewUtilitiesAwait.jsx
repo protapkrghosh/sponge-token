@@ -68,8 +68,9 @@ const NewUtilitiesAwait = () => {
 
           {/* joinShadow Shadow  */}
           <div>
-            <div className='joinShadowRight w-[350px] h-[230px] absolute -bottom-32 right-0 2xl:right-20' />
-            <div className='joinShadowLeft w-[400px] h-[230px] absolute -bottom-32 left-0 2xl:left-20' />
+            <div className='joinShadowRight w-[200px] xl:w-[350px] h-[200px] xl:h-[230px] absolute -bottom-32 right-0 2xl:right-20 hidden md:block' />
+
+            <div className='joinShadowLeft w-[200px] xl:w-[400px] h-[200px] xl:h-[230px] absolute -bottom-32 left-0 2xl:left-20' />
           </div>
 
           <Container>
