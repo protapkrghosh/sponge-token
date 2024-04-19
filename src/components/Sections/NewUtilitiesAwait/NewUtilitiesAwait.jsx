@@ -10,7 +10,7 @@ const NewUtilitiesAwait = () => {
         <Container>
           <div>
             {/* title section  */}
-            <p className='text-[#FFF] text-center font-TTRoundsNeue xl:text-[58px] lg:text-[50px] text-[38px] font-bold leading-[75.4px] xl:mb-[90px] lg:mb-[50px] mb-[30px]'>New <span className='text-[#FDF44E]'>Utilities</span> Await</p>
+            <h1 className='text-[#FFF] text-center font-TTRoundsNeue xl:text-[58px] lg:text-[50px] text-[38px] font-bold leading-[75.4px] xl:mb-[90px] lg:mb-[50px] mb-[30px]' data-aos="fade-up" data-aos-duration="1000">New <span className='text-[#FDF44E]'>Utilities</span> Await</h1>
 
             {/* card section  */}
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 xl:gap-[30px] lg:gap-[20px] md:gap-[30px] gap-[20px]'>

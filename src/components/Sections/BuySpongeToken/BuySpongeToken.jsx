@@ -7,7 +7,7 @@ const BuySpongeToken = () => {
     <div className='mt-32' id='buy'>
       <Container>
         <div>
-          <h1 className='text-[#fff] text-[64px] text-center font-TTRoundsNeue font-bold'>How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
+          <h1 className='text-[#fff] text-[64px] text-center font-TTRoundsNeue font-bold' data-aos="fade-up" data-aos-duration="1000">How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
 
           <div className='lg:flex justify-between items-center gap-7 mt-14'>
             <div className='lg:w-[57%]'>
