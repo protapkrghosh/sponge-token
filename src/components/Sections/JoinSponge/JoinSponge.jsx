@@ -24,7 +24,10 @@ const JoinSponge = () => {
           <img className='lg:block hidden xl:w-auto lg:w-[40%] absolute 2xl:left-[-50px] xl:left-[-50px] lg:left-[-30px] 2xl:top-[-55px] xl:top-[-55px] lg:top-[-40px] z-50' src={JoinSpongeborder} alt="" />
 
         </div>
-        <div className='joinShadow w-[200px] h-[270px] absolute right-0 -bottom-14' />
+        {/* joinShadow Shadow  */}
+        <div className='joinShadow w-[220px] h-[270px] absolute 2xl:left-[400px] 2xl:bottom-[-250px]' />
+
+        <div className=' joinShadow w-[220px] h-[270px] absolute 2xl:right-[40px] 2xl:bottom-[-400px]' />
 
       </Container>
     </div>
