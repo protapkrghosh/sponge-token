@@ -1,10 +1,65 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { IoMdCheckmark } from "react-icons/io";
 import Container from '../Container/Container';
+import Chart from 'chart.js/auto';
 
 const Tokenomics = () => {
+  const chartRef = useRef(null);
+  const chartInstance = useRef(null);
+
+  useEffect(() => {
+    if (chartInstance.current) {
+      chartInstance.current.destroy();
+    }
+    const myChartRef = chartRef.current.getContext("2d");
+
+    chartInstance.current = new Chart(myChartRef, {
+      type: "doughnut",
+      data: {
+        // labels: [
+        //   'red',
+        //   'blue',
+        //   'green',
+        //   'yellow',
+        // ],
+
+        datasets: [{
+          // data: [30, 45, 25, 66, 35],
+
+          backgroundColor: [
+            'rgb(255, 25, 255)',
+            'rgb(255, 255, 95)',
+            'rgb(25, 180, 255)',
+            'rgb(55, 205, 86)',
+            'rgb(255, 05, 36)',
+          ],
+
+          borderWidth: [0],
+        }],
+      },
+
+      options: {
+        plugins: {
+          legend: {
+            labels: {
+              boxWidth: 50,
+              boxHeight: 20
+            }
+          }
+        }
+      }
+    });
+
+
+    return () => {
+      if (chartInstance.current) {
+        chartInstance.current.destroy();
+      }
+    }
+  }, [])
+
   return (
-    <div className='mt-20'>
+    <div className='pt-20' id='tokenomics'>
       <Container>
         <div className='md:flex justify-between'>
           <div className='md:w-1/2'>
@@ -56,6 +111,12 @@ const Tokenomics = () => {
                 <p className='text-white text-[25px] font-bold font-poppins ml-6'>Presale <span className='text-[32px] ml-3'>30%</span></p>
               </div>
             </div>
+          </div>
+
+
+          {/* Pie chart area */}
+          <div>
+            <canvas ref={chartRef} style={{ width: '300px', height: '300px' }} />
           </div>
         </div>
       </Container>

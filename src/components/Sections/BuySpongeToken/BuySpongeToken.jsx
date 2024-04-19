@@ -4,7 +4,7 @@ import spongeKid from '@/assets/howToBuy/Group.png'
 
 const BuySpongeToken = () => {
   return (
-    <div className='mt-32'>
+    <div className='mt-32' id='buy'>
       <Container>
         <div>
           <h1 className='text-[#fff] text-[64px] text-center font-TTRoundsNeue font-bold'>How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
@@ -37,15 +37,15 @@ const BuySpongeToken = () => {
 
             <div className='md:w-1/2'>
               <div className='flex'>
-                <img src={spongeKid} alt="Image" className='xl:pb-[10px] w-[410px] 2xl:w-[58%] xl:w-[71%]' />
+                <img src={spongeKid} alt="Image" className='xl:pb-[10px] w-[410px] 2xl:w-[71%] xl:w-[69%]' />
               </div>
 
               <div>
                 {/* Card Four */}
                 <div className='bg-[#0C2251] cusShadow p-10 rounded-[20px] mt-4 xl:w-[90%]'>
-                  <h2 className='text-[#FDF44E] text-[40px] font-TTRoundsNeue font-bold xl:w-[75%] xl:leading-[38.4px] tracking-[0.96px]'>4. Buy SPONGE <span className='xl:pl-[48px]'>token</span></h2>
+                  <h2 className='text-[#FDF44E] text-[40px] font-TTRoundsNeue font-bold xl:w-[75%] xl:leading-[43px] 2xl:leading-[48px] tracking-[0.96px]'>4. Buy SPONGE <span className='xl:pl-[48px]'>token</span></h2>
 
-                  <p className='text-[#F4F4F4] font-poppins mt-4 leading-7 2xl:w-[65%] xl:w-[85%]'>Buy $SPONGE token and join the revolution! Embrace the laughter, fun and potential gains. Secure your spot now. Hurry up!</p>
+                  <p className='text-[#F4F4F4] font-poppins mt-4 leading-7 2xl:w-[75%] xl:w-[85%]'>Buy $SPONGE token and join the revolution! Embrace the laughter, fun and potential gains. Secure your spot now. Hurry up!</p>
                 </div>
               </div>
             </div>
