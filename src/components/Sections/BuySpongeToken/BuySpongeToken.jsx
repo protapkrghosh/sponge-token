@@ -37,7 +37,7 @@ const BuySpongeToken = () => {
 
             <div className='md:w-[43%]'>
               <div className='flex'>
-                <img src={spongeKid} alt="Image" className='xl:pb-[10px] w-[410px] 2xl:w-[72%] xl:w-[85%] mx-auto' />
+                <img src={spongeKid} alt="Image" className='xl:pb-[10px] md:pb-[80px] w-[410px] 2xl:w-[72%] xl:w-[85%] md:w-[98%] mx-auto' />
               </div>
 
               <div>
