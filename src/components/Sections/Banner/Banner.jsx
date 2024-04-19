@@ -6,6 +6,7 @@ import arrowImg from "@/assets/banner/Group 10.png"
 import logoImg from "@/assets/banner/logo.png"
 import pathImg from '@/assets/banner/bgShape.png'
 import netShapeImg from '@/assets/banner/elementor.png'
+import aboutNetShapeImg from '@/assets/banner/aboutOverlay.png'
 import Container from '../Container/Container';
 import { Button } from '@/components/ui/button';
 import { useEffect, useState } from 'react'
@@ -314,20 +315,25 @@ const Banner = () => {
             <div className='-mb-[460px] 2xl:-mb-[480px]'>
               <img src={clipBgBorder} alt="Image" className='w-full h-[540px]' />
             </div>
+            
+            <div className='relative'>
+              {/* Shape Image */}
+              <img src={aboutNetShapeImg} alt="Image" className='absolute left-[630px] top-36 w-[370px]' />
 
-            <div className='md:flex justify-between items-center px-12'>
-              <div className='md:w-1/2'>
-                <h1 className='text-white text-[70px] font-bold font-TTRoundsNeue uppercase'>Abo<span className='text-[#FDF44E]'>ut us</span></h1>
+              <div className='md:flex justify-between items-center px-12'>
+                <div className='md:w-1/2'>
+                  <h1 className='text-white text-[70px] font-bold font-TTRoundsNeue uppercase'>Abo<span className='text-[#FDF44E]'>ut us</span></h1>
 
-                <div className='text-[#fff] text-[18px] font-poppins space-y-4 mt-6 2xl:w-[95%]'>
-                  <p>Welcome to Sponge coin, where innovation meets opportunity. As a leading player in the burgeoning world of decentralized finance (DeFi), Sponge coin is committed to pioneering solutions that empower individuals and communities worldwide.</p>
+                  <div className='text-[#fff] text-[18px] font-poppins space-y-4 mt-6'>
+                    <p className='2xl:w-[95%]'>Welcome to Sponge coin, where innovation meets opportunity. As a leading player in the burgeoning world of decentralized finance (DeFi), Sponge coin is committed to pioneering solutions that empower individuals and communities worldwide.</p>
 
-                  <p>Our mission is to democratize access to financial services by leveraging the unparalleled speed and scalability of the Solana blockchain. With a team of dedicated experts and a vision for a more inclusive financial landscape, Sponge coin is poised to redefine the way we transact...</p>
+                    <p className='2xl:w-[97%]'>Our mission is to democratize access to financial services by leveraging the unparalleled speed and scalability of the Solana blockchain. With a team of dedicated experts and a vision for a more inclusive financial landscape, Sponge coin is poised to redefine the way we transact...</p>
+                  </div>
                 </div>
-              </div>
 
-              <div className='md:w-1/2 flex justify-end'>
-                <img src={aboutKids} alt="Image" className='w-[75%] 2xl:w-[70%] mt-10 2xl:mt-20' />
+                <div className='md:w-1/2 flex justify-end'>
+                  <img src={aboutKids} alt="Image" className='w-[75%] 2xl:w-[70%] mt-10 2xl:mt-20' />
+                </div>
               </div>
             </div>
           </div>
