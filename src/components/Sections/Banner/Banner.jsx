@@ -314,7 +314,7 @@ const Banner = () => {
         <Container>
           <div>
             <div className='-mb-[460px] 2xl:-mb-[480px]'>
-              <img src={clipBgBorder} alt="Image" className='w-full h-[540px]' />
+              <img src={clipBgBorder} alt="Image" className='w-full h-[510px] xl:h-[540px]' />
             </div>
             
             <div className='relative'>
