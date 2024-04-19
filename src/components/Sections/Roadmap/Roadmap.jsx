@@ -3,7 +3,7 @@ import Container from '../Container/Container';
 
 const Roadmap = () => {
   return (
-    <div className='bg-[#061C4C] mt-32' id='roadmap'>
+    <div className='bg-[#061C4C]' id='roadmap'>
       <Container>
         <div className='pt-20 pb-24'>
           <h1 className='text-[#fff] text-[40px] lg:text-[50px] xl:text-[64px] text-center font-TTRoundsNeue font-bold'>Road<span className='text-[#FDF44E]'>map</span></h1>

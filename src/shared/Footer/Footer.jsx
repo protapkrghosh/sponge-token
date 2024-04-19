@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 
 const Footer = () => {
   return (
-    <div className='bg-[#152745]'>
+    <div className='bg-gradient-to-r from-[#112344] to-[#172844]'>
       <Container>
         <div className=''>
           <div className="">
