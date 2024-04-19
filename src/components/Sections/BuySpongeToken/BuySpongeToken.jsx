@@ -9,8 +9,8 @@ const BuySpongeToken = () => {
         <div>
           <h1 className='text-[#fff] text-[64px] text-center font-TTRoundsNeue font-bold'>How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
 
-          <div className='md:flex justify-between items-center gap-7 mt-14'>
-            <div className='md:w-[57%]'>
+          <div className='lg:flex justify-between items-center gap-7 mt-14'>
+            <div className='lg:w-[57%]'>
               <div className='space-y-7'>
                 {/* Card One */}
                 <div className='bg-[#0C2251] cusShadow p-10 rounded-[20px]'>
@@ -35,9 +35,12 @@ const BuySpongeToken = () => {
               </div>
             </div>
 
-            <div className='md:w-[43%]'>
+            <div className='lg:w-[43%]'>
               <div className='flex'>
-                <img src={spongeKid} alt="Image" className='xl:pb-[10px] w-[410px] 2xl:w-[72%] xl:w-[85%] mx-auto' />
+                <img src={spongeKid} alt="Image" className='xl:pb-[10px] md:pb-[80px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' />
+              </div>
+              <div className='flex'>
+                <img src={spongeKid} alt="Image" className='xl:pb-[10px] md:pb-[80px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' />
               </div>
 
               <div>
