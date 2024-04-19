@@ -15,7 +15,7 @@ const NewUtilitiesAwait = () => {
             {/* 1 card  */}
             <div className='bg-[#071D4C] rounded-[20px] lg:pl-[25px] pl-[20px]'>
               <p className='text-[#FFF] font-TTRoundsNeue lg:text-[25px] text-[18px] font-bold leading-[32.5px] xl:pt-[30px] lg:pt-[30px] pt-[15px] xl:pb-[24px] lg:pb-[20px] pb-[10px]'>SPONGE Wear</p>
-              <p className='newUtilitiesAwaitConten font-inter lg:text-[16px] text-[14px] leading-[26.82px] xl:pb-[30px] lg:pb-[25px] pb-[20px] 2xl:w-[82%] xl:w-[88%]'>Effortlessly trade $SPONGE tokens on our decentralized exchange.</p>
+              <p className='newUtilitiesAwaitConten font-inter lg:text-[16px] text-[14px] leading-[26.82px] xl:pb-[30px] lg:pb-[25px] pb-[20px] 2xl:w-[75%] xl:w-[88%]'>Effortlessly trade $SPONGE tokens on our decentralized exchange.</p>
             </div>
 
             {/* 2 card  */}
