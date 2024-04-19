@@ -15,11 +15,11 @@ const Tokenomics = () => {
         <Container>
           <div className='relative my-28 md:mt-72 lg:mt-40 lg:mb-32 2xl:my-32'>
             <div className='md:absolute md:bottom-28 lg:bottom-12 xl:bottom-12'>
-              <h1 className='text-[#fff] text-[38px] lg:text-[55px] xl:text-[64px] font-TTRoundsNeue font-bold mb-9'>Tokeno<span className='text-[#FDF44E]'>mics</span></h1>
+              <h1 className='text-[#fff] text-[38px] lg:text-[55px] xl:text-[64px] font-TTRoundsNeue font-bold mb-9' data-aos="fade-up" data-aos-duration="700">Tokeno<span className='text-[#FDF44E]'>mics</span></h1>
 
               <div className='space-y-3 md:space-y-5 xl:space-y-7'>
                 {/* Liquidity */}
-                <div className='flex items-center'>
+                <div className='flex items-center' data-aos="fade-up" data-aos-duration="800">
                   <div className='bg-[#fdf44e] w-6 xl:w-10 h-6 xl:h-10 flex justify-center items-center rounded-full'>
                     <IoMdCheckmark className='text-[#b1ab37] text-[16px] xl:text-[22px]' />
                   </div>
@@ -28,7 +28,7 @@ const Tokenomics = () => {
                 </div>
 
                 {/* Team */}
-                <div className='flex items-center'>
+                <div className='flex items-center' data-aos="fade-up" data-aos-duration="1000">
                   <div className='bg-[#c060a1] w-6 xl:w-10 h-6 xl:h-10 flex justify-center items-center rounded-full'>
                     <IoMdCheckmark className='text-[#fff] text-[16px] xl:text-[22px]' />
                   </div>
@@ -37,7 +37,7 @@ const Tokenomics = () => {
                 </div>
 
                 {/* Future development */}
-                <div className='flex items-center'>
+                <div className='flex items-center' data-aos="fade-up" data-aos-duration="1200">
                   <div className='bg-[#0147f7] w-6 xl:w-10 h-6 xl:h-10 flex justify-center items-center rounded-full'>
                     <IoMdCheckmark className='text-[#fff] text-[16px] xl:text-[22px]' />
                   </div>
@@ -46,7 +46,7 @@ const Tokenomics = () => {
                 </div>
 
                 {/* Staking  rewards */}
-                <div className='flex items-center'>
+                <div className='flex items-center' data-aos="fade-up" data-aos-duration="1300">
                   <div className='bg-[#2bbf7f] w-6 xl:w-10 h-6 xl:h-10 flex justify-center items-center rounded-full'>
                     <IoMdCheckmark className='text-[#fff] text-[16px] xl:text-[22px]' />
                   </div>
@@ -55,7 +55,7 @@ const Tokenomics = () => {
                 </div>
 
                 {/* Presale */}
-                <div className='flex items-center'>
+                <div className='flex items-center' data-aos="fade-up" data-aos-duration="1500">
                   <div className='bg-[#6d67e4] w-6 xl:w-10 h-6 xl:h-10 flex justify-center items-center rounded-full'>
                     <IoMdCheckmark className='text-[#fff] text-[16px] xl:text-[22px]' />
                   </div>
@@ -69,7 +69,7 @@ const Tokenomics = () => {
             <div className=''>
               <img src={chatImg} alt="Image" className='md:min-w-[700px] lg:min-w-[990px] xl:min-w-[1250px] 2xl:min-w-[1370px] hidden md:block' />
 
-              <img src={smChatImg} alt="Image" className='w-[85%] mx-auto mt-16 block md:hidden' />
+              <img src={smChatImg} alt="Image" className='w-[85%] mx-auto mt-16 block md:hidden' data-aos="fade-up" data-aos-duration="1000" />
             </div>
           </div>
         </Container>

@@ -6,14 +6,14 @@ const Roadmap = () => {
     <div className='bg-[#061C4C]' id='roadmap'>
       <Container>
         <div className='pt-20 pb-24'>
-          <h1 className='text-[#fff] text-[40px] lg:text-[50px] xl:text-[64px] text-center font-TTRoundsNeue font-bold'>Road<span className='text-[#FDF44E]'>map</span></h1>
+          <h1 className='text-[#fff] text-[40px] lg:text-[50px] xl:text-[64px] text-center font-TTRoundsNeue font-bold' data-aos="fade-up" data-aos-duration="1000">Road<span className='text-[#FDF44E]'>map</span></h1>
 
 
           {/* All Phase Card */}
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 lg:gap-y-0 md:gap-x-6 gap-x-4 xl:gap-x-7 mt-14 xl:mt-16'>
             {/* Phase One */}
             <div>
-              <div className='flex justify-center -mb-5 xl:-mb-6'>
+              <div className='flex justify-center -mb-5 xl:-mb-6' data-aos="zoom-in" data-aos-duration="800">
                 <div className='bg-[#132856] cusShadow w-fit px-7 py-1 rounded-[10px]'>
                   <p className='text-white text-[23px] xl:text-[28px] font-bold font-TTRoundsNeue'>PHASE 1</p>
                 </div>
@@ -37,7 +37,7 @@ const Roadmap = () => {
 
             {/* Phase Two */}
             <div>
-              <div className='flex justify-center -mb-5 xl:-mb-6'>
+              <div className='flex justify-center -mb-5 xl:-mb-6' data-aos="zoom-in" data-aos-duration="1000">
                 <div className='bg-[#132856] cusShadow w-fit px-7 py-1 rounded-[10px]'>
                   <p className='text-white text-[23px] xl:text-[28px] font-bold font-TTRoundsNeue'>PHASE 2</p>
                 </div>
@@ -61,7 +61,7 @@ const Roadmap = () => {
 
             {/* Phase Three */}
             <div>
-              <div className='flex justify-center -mb-5 xl:-mb-6'>
+              <div className='flex justify-center -mb-5 xl:-mb-6' data-aos="zoom-in" data-aos-duration="1200">
                 <div className='bg-[#132856] cusShadow w-fit px-7 py-1 rounded-[10px]'>
                   <p className='text-white text-[23px] xl:text-[28px] font-bold font-TTRoundsNeue'>PHASE 3</p>
                 </div>
