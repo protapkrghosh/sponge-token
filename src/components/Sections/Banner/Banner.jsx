@@ -305,11 +305,11 @@ const Banner = () => {
       </div>
 
       {/* Custom Shadow */}
-      <div className='bannerShadowRight w-[400px] h-[370px] absolute right-0 -bottom-72'/>
+      <div className='bannerShadowRight w-[400px] h-[270px] absolute right-0 -bottom-14'/>
 
 
       {/********************** About us ***********************/}
-      <div>
+      <div className='-mt-52'>
         <Container>
           <div>
             <div className='-mb-[460px] 2xl:-mb-[480px]'>
