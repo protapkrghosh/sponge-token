@@ -22,8 +22,9 @@ const Tokenomics = () => {
         //   'green',
         //   'yellow',
         // ],
+
         datasets: [{
-          data: [30, 45, 25, 66, 35],
+          // data: [30, 45, 25, 66, 35],
 
           backgroundColor: [
             'rgb(255, 25, 255)',
@@ -34,12 +35,21 @@ const Tokenomics = () => {
           ],
 
           borderWidth: [0],
-          backgroundWidth: [
-            '20px'
-          ]
         }],
+      },
+
+      options: {
+        plugins: {
+          legend: {
+            labels: {
+              boxWidth: 50,
+              boxHeight: 20
+            }
+          }
+        }
       }
     });
+
 
     return () => {
       if (chartInstance.current) {
