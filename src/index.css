@@ -75,8 +75,9 @@ body {
 /* Join Sponge shadow */
 .joinShadow {
   flex-shrink: 0;
-  background: #efe413f6;
-  filter: blur(200px);
+  border-radius: 370.027px;
+  background: #FDF44E;
+  filter: blur(350px);
 }
 
 @layer base {

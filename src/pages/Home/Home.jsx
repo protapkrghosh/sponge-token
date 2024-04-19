@@ -16,7 +16,7 @@ const Home = () => {
       <Roadmap />
       <WhyChooseSPONGE />
       <NewUtilitiesAwait />
-      <JoinSponge />
+      {/* <JoinSponge /> */}
     </div>
   );
 };
