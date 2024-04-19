@@ -12,16 +12,16 @@ const JoinSponge = () => {
 
           {/* image section  */}
           <div className='flex justify-around items-center'>
-            <img className='z-40' src={JoinSpongeImg} alt="image" />
-            <p className='text-[#FFF] font-TTRoundsNeue xl:text-[40px] font-bold lg:leading-[68px] xl:max-w-[564.758px] z-40'>JOIN $SPONGE AND LETS BARK OUR  WAY TO CRYPTO SPONGE TOGETHER!</p>
+            <img className='2xl:w-auto z-40' src={JoinSpongeImg} alt="image" />
+            <p className='text-[#FFF] font-TTRoundsNeue xl:text-[40px] font-bold lg:leading-[68px] 2xl:w-[40%] z-40'>JOIN $SPONGE AND LETS BARK OUR  WAY TO CRYPTO SPONGE TOGETHER!</p>
           </div>
 
           {/* moon section  */}
-          <div className='joinSpongeMoon absolute xl:top-[15px] xl:left-[630px]' />
+          <div className='joinSpongeMoon absolute 2xl:top-[15px] 2xl:left-[630px]' />
 
           {/* border section  */}
-          <img className='xl:w-auto absolute xl:right-[-30px] xl:top-[70px]' src={JoinSpongeborder} alt="" />
-          <img className='xl:w-auto absolute xl:left-[-50px] xl:top-[-40px]' src={JoinSpongeborder} alt="" />
+          <img className='2xl:w-auto absolute 2xl:right-[-30px] 2xl:top-[70px]' src={JoinSpongeborder} alt="" />
+          <img className='2xl:w-auto absolute 2xl:left-[-50px] 2xl:top-[-40px]' src={JoinSpongeborder} alt="" />
 
         </div>
 
