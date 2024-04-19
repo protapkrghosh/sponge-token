@@ -69,7 +69,7 @@ const Tokenomics = () => {
             <div className=''>
               <img src={chatImg} alt="Image" className='md:min-w-[700px] lg:min-w-[990px] xl:min-w-[1250px] 2xl:min-w-[1370px] hidden md:block' />
 
-              <img src={smChatImg} alt="Image" className='w-[85%] mx-auto mt-16 block md:hidden' />
+              <img src={smChatImg} alt="Image" className='w-[85%] mx-auto mt-16 block md:hidden' data-aos="fade-up" data-aos-duration="1000" />
             </div>
           </div>
         </Container>

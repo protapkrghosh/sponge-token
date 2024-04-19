@@ -321,7 +321,7 @@ const Banner = () => {
             
             <div className='relative'>
               {/* Shape Image */}
-              <img src={aboutNetShapeImg} alt="Image" className='absolute left-[350px] lg:left-[450px] xl:left-[630px] top-36 lg:top-52 xl:top-36 w-[370px] lg:w-[220px] xl:w-[370px] hidden lg:block' />
+              <img src={aboutNetShapeImg} alt="Image" className='absolute left-[350px] lg:left-[450px] xl:left-[630px] top-36 lg:top-52 xl:top-36 w-[370px] lg:w-[220px] xl:w-[370px] hidden lg:block' data-aos="zoom-in" data-aos-duration="1000" />
 
               <div className='lg:flex justify-between items-center lg:px-12'>
                 <div className='lg:w-1/2'>
@@ -334,7 +334,7 @@ const Banner = () => {
                   </div>
                 </div>
 
-                <div className='lg:w-1/2 flex justify-end md:mt-8 lg:mt-0'>
+                <div className='lg:w-1/2 flex justify-end md:mt-8 lg:mt-0' data-aos="fade-up" data-aos-duration="1000">
                   <img src={aboutKids} alt="Image" className='w-[75%] xl:w-[75%] 2xl:w-[70%] mt-10 2xl:mt-20 mx-auto lg:mx-0' />
                 </div>
               </div>
