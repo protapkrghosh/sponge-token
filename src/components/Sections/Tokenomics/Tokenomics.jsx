@@ -13,7 +13,7 @@ const Tokenomics = () => {
         <div className='tokenShadow w-[350px] xl:w-[370px] h-[150px] xl:h-[300px] absolute bottom-0 right-0' />
 
         <Container>
-          <div className='relative my-28 md:mt-72 lg:my-28'>
+          <div className='relative my-28 md:mt-72 lg:mt-40 lg:mb-32 2xl:my-32'>
             <div className='md:absolute md:bottom-28 lg:bottom-12 xl:bottom-12'>
               <h1 className='text-[#fff] text-[38px] lg:text-[55px] xl:text-[64px] font-TTRoundsNeue font-bold mb-9'>Tokeno<span className='text-[#FDF44E]'>mics</span></h1>
 
