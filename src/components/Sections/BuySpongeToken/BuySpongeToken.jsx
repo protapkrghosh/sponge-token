@@ -4,10 +4,13 @@ import spongeKid from '@/assets/howToBuy/Group.png'
 
 const BuySpongeToken = () => {
   return (
-    <div className='2xl:mt-[186px] xl:mt-[180px] lg:mt-[200px] md:mt-[140px] mt-[80px]' id='bu'>
+    <div className='2xl:mt-[186px] xl:mt-[180px] lg:mt-[200px] md:mt-[140px] mt-[80px]' id='buy'>
       <Container>
-        <div>
-          <h1 className='text-[#fff] xl:text-[64px] lg:text-[52px] md:text-[40px] text-[35px] text-center font-TTRoundsNeue font-bold' data-aos="fade-up" data-aos-duration="1000">How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
+        <div className='relative'>
+          {/* Moon shape */}
+          <div className='aboutMoonShape lg:w-[300px] lg:h-[300px] xl:w-[370px] xl:h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-40 lg:-top-5 lg:left-[650px] xl:left-[800px] 2xl:left-[750px] hidden lg:block' />
+
+          <h1 className='text-[#fff] lg:text-[64px] md:text-[45px] text-[42px] text-center font-TTRoundsNeue font-bold' data-aos="fade-up" data-aos-duration="1000">How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
 
           <div className='lg:flex justify-between items-center gap-7 mt-14'>
             <div className='lg:w-[57%]'>
@@ -37,7 +40,7 @@ const BuySpongeToken = () => {
 
             <div className='lg:w-[43%]'>
               <div className='hidden lg:block'>
-                <img src={spongeKid} alt="Image" className='xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' />
+                <img src={spongeKid} alt="Image" className='xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' data-aos="zoom-in" data-aos-duration="1000" />
               </div>
 
               <div>
@@ -50,7 +53,7 @@ const BuySpongeToken = () => {
 
 
                 <div className='block lg:hidden mt-20'>
-                  <img src={spongeKid} alt="Image" className='xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' />
+                  <img src={spongeKid} alt="Image" className='xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' data-aos="zoom-in" data-aos-duration="1000" />
                 </div>
               </div>
             </div>
