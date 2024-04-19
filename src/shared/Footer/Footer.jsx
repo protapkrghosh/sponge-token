@@ -25,7 +25,7 @@ const Footer = () => {
                   </li>
 
                   <li>
-                    <Link to="aboutToken" smooth={true} offset={-30} duration={600} className="text-[16px] text-[#fff] hover:text-[#FDF44E] font-inter duration-300 cursor-pointer">About</Link>
+                    <Link to="about" smooth={true} offset={-30} duration={600} className="text-[16px] text-[#fff] hover:text-[#FDF44E] font-inter duration-300 cursor-pointer">About</Link>
                   </li>
 
                   <li>

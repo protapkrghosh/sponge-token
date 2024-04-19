@@ -17,9 +17,25 @@ body {
 }
 
 /* Banner */
-/* .csFontWeight {
-  font-weight: 900;
-} */
+.bannerSpongeMoonRight {
+  transform: rotate(-159.901deg);
+  flex-shrink: 0;
+  border-radius: 497.778px;
+  background: linear-gradient(32deg, rgba(253, 244, 78, 0.13) 14.65%, rgba(151, 146, 47, 0.00) 42.72%);
+}
+
+.bannerSpongeMoonLeft {
+  transform: rotate(7.8891deg);
+  flex-shrink: 0;
+  border-radius: 497.778px;
+  background: linear-gradient(32deg, rgba(253, 244, 78, 0.13) 14.65%, rgba(151, 146, 47, 0.00) 42.72%);
+}
+
+.bannerShadowRight {
+  flex-shrink: 0;
+  background: #efe413f6;
+  filter: blur(285px);
+}
 
 .cusShadow {
   box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.15) inset;
@@ -43,6 +59,13 @@ body {
   flex-shrink: 0;
   border-radius: 409.959px;
   background: linear-gradient(32deg, rgba(253, 244, 78, 0.13) 14.65%, rgba(151, 146, 47, 0.00) 42.72%);
+}
+
+/* Join Sponge shadow */
+.joinShadow {
+  flex-shrink: 0;
+  background: #efe413f6;
+  filter: blur(200px);
 }
 
 @layer base {

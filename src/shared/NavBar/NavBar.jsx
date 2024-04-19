@@ -16,7 +16,7 @@ const NavBar = () => {
       const scrollPosition = window.scrollY;
 
       const homeSection = document.getElementById("home");
-      const aboutTokenSection = document.getElementById("aboutToken");
+      const aboutTokenSection = document.getElementById("about");
       const tokenomicsSection = document.getElementById("tokenomics");
       const buySection = document.getElementById("buy");
       const roadmapSection = document.getElementById("roadmap");
@@ -79,7 +79,7 @@ const NavBar = () => {
 
   return (
     <div className={color ? 'sticky  bg-[#061944] top-0 z-50 duration-300 shadow-md py-1' : 'pt-0 shadow-sm navBg bg-[#061944] duration-300'}>
-      <div className="max-w-[1620px] mx-auto xl:px-24 lg:px-16 md:px-10 sm:px-2 px-4">
+      <div className="max-w-[1440px] mx-auto xl:px-24 lg:px-16 md:px-10 sm:px-2 px-4">
         <div className="w-full top-0 left-0 z-10">
           <div className={`md:flex justify-between items-center ${color ? 'py-3' : 'py-5'}`}>
 
@@ -100,7 +100,7 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="aboutToken" smooth={true} offset={0} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer ${activeLink === "aboutToken" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("aboutToken")}>About</Link>
+                <Link to="about" smooth={true} offset={-100} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer ${activeLink === "about" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("about")}>About</Link>
               </li>
 
               <li>
@@ -108,11 +108,11 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="buy" smooth={true} offset={0} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer ${activeLink === "buy" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("buy")}>How to buy</Link>
+                <Link to="buy" smooth={true} offset={-90} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer ${activeLink === "buy" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("buy")}>How to buy</Link>
               </li>
 
               <li>
-                <Link to="roadmap" smooth={true} offset={10} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer  ${activeLink === "roadmap" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("roadmap")}>Roadmap</Link>
+                <Link to="roadmap" smooth={true} offset={-5} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer  ${activeLink === "roadmap" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("roadmap")}>Roadmap</Link>
               </li>
 
               <div className="block md:hidden">
