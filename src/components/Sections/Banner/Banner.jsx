@@ -130,9 +130,9 @@ const Banner = () => {
           <Container>
             <div className='flex flex-col-reverse lg:flex-row justify-between items-center'>
               <div className='lg:w-1/2 mt-24 lg:mt-0'>
-                <h1 className='text-[50px] md:text-[46px] lg:text-[50px] xl:text-[50px] 2xl:text-[54px] text-white text-center lg:text-start font-TTRoundsNeue font-extrabold tracking-wider uppercase'>Aye-aye, captain! Buy some <span className='text-[#FDF44E]'>$SPONGE!</span></h1>
+                <h1 className='text-[50px] md:text-[46px] lg:text-[50px] xl:text-[50px] 2xl:text-[54px] text-white text-center lg:text-start font-TTRoundsNeue font-black tracking-wider uppercase '>Aye-aye, captain! Buy some <span className='text-[#FDF44E]'>$SPONGE!</span></h1>
 
-                <div className='md:text-[18px] text-white font-poppins text-center lg:text-start lg:w-[90%] xl:w-[80%] 2xl:w-[85%] mt-7 mb-12 space-y-5'>
+                <div className='md:text-[18px] text-white font-poppins text-center lg:text-start lg:w-[90%] xl:w-[80%] 2xl:w-[100%] mt-7 mb-12 space-y-5'>
                   <p>We're thrilled to introduce you to a revolutionary digital asset built on the Solana blockchain: the $SPONGE coin.</p>
 
                   <p>Innovation, efficiency, and sustainability in the ever-evolving world of decentralized finance. With lightning-fast transaction speeds and minimal fees.</p>
@@ -158,7 +158,7 @@ const Banner = () => {
               </div>
 
               {/* Presale ends in card section */}
-              <div className='w-full lg:w-1/2 xl:-mr-5 2xl:-mr-24'>
+              <div className='w-full lg:w-1/2 xl:-mr-5 2xl:-mr-10'>
                 {/* Progress card */}
                 <div className='max-w-[528px] mx-auto'>
 
