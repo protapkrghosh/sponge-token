@@ -308,15 +308,15 @@ const Banner = () => {
       <div>
         <Container>
           <div>
-            <div className='-mb-[460px] 2xl:-mb-[520px]'>
+            <div className='-mb-[460px] 2xl:-mb-[480px]'>
               <img src={clipBgBorder} alt="Image" className='w-full h-[540px]' />
             </div>
 
-            <div className='md:flex justify-between items-center px-10'>
+            <div className='md:flex justify-between items-center px-12'>
               <div className='md:w-1/2'>
                 <h1 className='text-white text-[70px] font-bold font-TTRoundsNeue uppercase'>Abo<span className='text-[#FDF44E]'>ut us</span></h1>
 
-                <div className='text-[#fff] text-[18px] font-poppins space-y-4 mt-6'>
+                <div className='text-[#fff] text-[18px] font-poppins space-y-4 mt-6 2xl:w-[95%]'>
                   <p>Welcome to Sponge coin, where innovation meets opportunity. As a leading player in the burgeoning world of decentralized finance (DeFi), Sponge coin is committed to pioneering solutions that empower individuals and communities worldwide.</p>
 
                   <p>Our mission is to democratize access to financial services by leveraging the unparalleled speed and scalability of the Solana blockchain. With a team of dedicated experts and a vision for a more inclusive financial landscape, Sponge coin is poised to redefine the way we transact...</p>
@@ -324,7 +324,7 @@ const Banner = () => {
               </div>
 
               <div className='md:w-1/2 flex justify-end'>
-                <img src={aboutKids} alt="Image" className='w-[75%] 2xl:w-[70%] mt-10 2xl:mt-24' />
+                <img src={aboutKids} alt="Image" className='w-[75%] 2xl:w-[70%] mt-10 2xl:mt-20' />
               </div>
             </div>
           </div>
