@@ -5,13 +5,16 @@ import chatImg from '@/assets/tokonomics/charts.png'
 import smChatImg from '@/assets/tokonomics/Group_chart.png'
 
 const Tokenomics = () => {
-  
+
   return (
-    <div className='pt-20 md:pt-72 lg:pt-40 xl:pt-44 lg:pb-12 -mb-10 md:mb-0' id='tokenomics'>
-      <div>
+    <div id='tokenomics'>
+      <div className='relative overflow-hidden'>
+        {/* Shadow */}
+        <div className='tokenShadow w-[350px] xl:w-[370px] h-[150px] xl:h-[300px] absolute bottom-0 right-0' />
+
         <Container>
-          <div className='relative'>
-            <div className='md:absolute md:bottom-32 lg:bottom-12 xl:bottom-12'>
+          <div className='relative my-28 md:mt-72 lg:my-28'>
+            <div className='md:absolute md:bottom-28 lg:bottom-12 xl:bottom-12'>
               <h1 className='text-[#fff] text-[38px] lg:text-[55px] xl:text-[64px] font-TTRoundsNeue font-bold mb-9'>Tokeno<span className='text-[#FDF44E]'>mics</span></h1>
 
               <div className='space-y-3 md:space-y-5 xl:space-y-7'>
@@ -66,15 +69,10 @@ const Tokenomics = () => {
             <div className=''>
               <img src={chatImg} alt="Image" className='md:min-w-[700px] lg:min-w-[990px] xl:min-w-[1250px] 2xl:min-w-[1370px] hidden md:block' />
 
-              <img src={smChatImg} alt="Image" className='w-[85%] mx-auto mt-16 block md:hidden'/>
+              <img src={smChatImg} alt="Image" className='w-[85%] mx-auto mt-16 block md:hidden' />
             </div>
           </div>
         </Container>
-
-        {/* Shadow */}
-        {/* <div>
-          <div className='tokenShadow w-[370px] h-[370px] absolute right-0' />
-        </div> */}
       </div>
     </div>
   );
