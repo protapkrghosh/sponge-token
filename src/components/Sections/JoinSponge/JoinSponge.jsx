@@ -5,7 +5,7 @@ import JoinSpongeborder from '@/assets/JoinSponge/div.elementor-background-overl
 
 const JoinSponge = () => {
   return (
-    <div className='xl:my-[140px] lg:my-[120px] my-[100px]'>
+    <div className='xl:my-[140px] lg:my-[120px] my-[100px] relative'>
       <Container>
         {/* main section  */}
         <div className='relative'>
@@ -20,15 +20,15 @@ const JoinSponge = () => {
           <div className='lg:block hidden joinSpongeMoon xl:h-[400px] lg:h-[300px] xl:w-[400px] lg:w-[300px] absolute 2xl:top-[2px] xl:top-[5px] lg:top-[5px] 2xl:left-[510px] xl:left-[475px] lg:left-[375px]' />
 
           {/* border section  */}
-          <img className='lg:block hidden xl:w-auto lg:w-[40%] absolute 2xl:right-[-50px] xl:right-[-60px] lg:right-[-90px] 2xl:top-[68px] xl:top-[68px] lg:top-[38px]' src={JoinSpongeborder} alt="" />
-          <img className='lg:block hidden xl:w-auto lg:w-[40%] absolute 2xl:left-[-50px] xl:left-[-50px] lg:left-[-30px] 2xl:top-[-55px] xl:top-[-55px] lg:top-[-40px] z-50' src={JoinSpongeborder} alt="" />
+          <img className='lg:block hidden xl:w-auto lg:w-[40%] absolute 2xl:right-[-50px] xl:right-[-60px] lg:right-[-90px] 2xl:top-[68px] xl:top-[68px] lg:top-[38px]' src={JoinSpongeborder} alt="Image" />
 
+          <img className='lg:block hidden xl:w-auto lg:w-[40%] absolute 2xl:left-[-50px] xl:left-[-50px] lg:left-[-30px] 2xl:top-[-55px] xl:top-[-55px] lg:top-[-40px] z-50' src={JoinSpongeborder} alt="Image" />
         </div>
+
         {/* joinShadow Shadow  */}
-        <div className='joinShadow w-[220px] h-[270px] absolute 2xl:left-[400px] 2xl:bottom-[-250px]' />
+        {/* <div className='joinShadow w-[220px] h-[270px] absolute 2xl:left-[400px] 2xl:bottom-[-250px]' /> */}
 
-        <div className=' joinShadow w-[220px] h-[270px] absolute 2xl:right-[40px] 2xl:bottom-[-400px]' />
-
+        {/* <div className='joinShadow w-[220px] h-[270px] absolute 2xl:right-[40px] 2xl:bottom-[-400px]' /> */}
       </Container>
     </div>
   );
