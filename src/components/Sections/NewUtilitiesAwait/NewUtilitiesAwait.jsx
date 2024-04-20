@@ -78,7 +78,7 @@ const NewUtilitiesAwait = () => {
             <div className='relative'>
               {/* image section  */}
               <div className='lg:flex justify-around items-center'>
-                <img className='lg:mx-0 mx-auto xl:w-auto lg:w-[32%] md:w-[45%] w-[85%] lg:mb-0 md:mb-16 mb-10 z-10' src={JoinSpongeImg} alt="image" />
+                <img className='animationImg lg:mx-0 mx-auto xl:w-auto lg:w-[32%] md:w-[45%] w-[85%] lg:mb-0 md:mb-16 mb-10 z-10' src={JoinSpongeImg} alt="image" />
 
                 <p className='text-[#FFF] lg:text-start text-center font-TTRoundsNeue xl:text-[40px] lg:text-[30px] md:text-[30px] text-[20px] font-bold lg:leading-[68px] lg:w-[45%] z-40'>JOIN $SPONGE AND LETS BARK OUR  WAY TO CRYPTO SPONGE TOGETHER!</p>
               </div>

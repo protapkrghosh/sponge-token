@@ -333,7 +333,7 @@ const Banner = () => {
                 </div>
 
                 <div className='lg:w-1/2 flex justify-end md:mt-8 lg:mt-0'>
-                  <img src={aboutKids} alt="Image" className='w-[75%] xl:w-[75%] 2xl:w-[70%] mt-10 2xl:mt-20 mx-auto lg:mx-0' />
+                  <img src={aboutKids} alt="Image" className='animationImg w-[75%] xl:w-[75%] 2xl:w-[70%] mt-10 2xl:mt-20 mx-auto lg:mx-0' />
                 </div>
               </div>
             </div>
