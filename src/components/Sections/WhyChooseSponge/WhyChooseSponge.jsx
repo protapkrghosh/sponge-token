@@ -25,7 +25,7 @@ const WhyChooseSPONGE = () => {
             <div className='bg-[#071D4C] rounded-[20px] xl:pl-10 lg:pl-[30px] pl-[25px] lg:mb-[32px] relative mb-[20px]'>
               <img className='lg:block hidden xl:w-auto lg:w-[50%] absolute xl:right-16 lg:right-14 xl:top-12 lg:top-12' src={borderShadowImg} alt="image" />
 
-              <img className='animationImg xl:w-auto lg:w-[25%] xl:pt-[40px] lg:pt-[30px] pt-[30px] xl:pb-[24px] lg:pb-[20px] pb-[20px]' src={solanaImg} alt="image" />
+              <img className='xl:w-auto lg:w-[25%] xl:pt-[40px] lg:pt-[30px] pt-[30px] xl:pb-[24px] lg:pb-[20px] pb-[20px]' src={solanaImg} alt="image" />
 
               <p className='text-[#FFF] font-TTRoundsNeue xl:text-[25px] lg:text-[22px] text-[20px] font-bold leading-[32.5px]'>Solana's Speed</p>
 
@@ -37,7 +37,7 @@ const WhyChooseSPONGE = () => {
             <div className='bg-[#071D4C] rounded-[20px] xl:pl-10 lg:pl-[30px] pl-[25px] relative'>
               <img className='lg:block hidden xl:w-auto lg:w-[50%] absolute xl:right-16 lg:right-14 xl:top-12 lg:top-12' src={borderShadowImg} alt="image" />
 
-              <img className='animationImg xl:w-auto lg:w-[25%] xl:pt-[40px] lg:pt-[30px] pt-[30px] xl:pb-[24px] lg:pb-[20px] pb-[20px]' src={communityImg} alt="image" />
+              <img className='xl:w-auto lg:w-[25%] xl:pt-[40px] lg:pt-[30px] pt-[30px] xl:pb-[24px] lg:pb-[20px] pb-[20px]' src={communityImg} alt="image" />
 
               <p className='text-[#FFF] font-TTRoundsNeue xl:text-[25px] lg:text-[22px] text-[20px] font-bold leading-[32.5px]'>Community-Focused</p>
 
