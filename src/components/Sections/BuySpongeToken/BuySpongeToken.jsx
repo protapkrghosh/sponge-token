@@ -53,7 +53,7 @@ const BuySpongeToken = () => {
 
 
                 <div className='block lg:hidden mt-20'>
-                  <img src={spongeKid} alt="Image" className='xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' />
+                  <img src={spongeKid} alt="Image" className='animationImg xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' />
                 </div>
               </div>
             </div>

@@ -15,7 +15,7 @@ const WhyChooseSPONGE = () => {
         <div className='lg:flex lg:gap-[30px]'>
 
           <div className='bg-[#071D4C] rounded-[20px] lg:mb-[0px] mb-[20px] lg:w-1/2 z-40'>
-            <p className='text-center text-[#FFF] font-TTRoundsNeue xl:text-[50px] lg:text-[35px] md:text-[38px] text-[30px] font-bold xl:leading-[65px] xl:pt-[62.5px] lg:pt-[62px] md:pt-[40px] pt-[35px] lg:pb-[30px] md:pb-[25px] pb-[25px]'>Why Choose <span className='text-[#FDF44E]'>SPONGE</span></p>
+            <p className='text-center text-[#FFF] font-TTRoundsNeue xl:text-[50px] lg:text-[35px] md:text-[38px] text-[30px] font-bold xl:leading-[65px] xl:pt-[62.5px] lg:pt-[62px] md:pt-[40px] pt-[35px] 2xl:pb-[65px] lg:pb-[50px] md:pb-[25px] pb-[25px]'>Why Choose <span className='text-[#FDF44E]'>SPONGE</span></p>
 
             <img className='animationImg 2xl:w-[65%] xl:w-[78%] lg:w-[84%] md:w-[50%] w-[80%] mx-auto xl:pb-[56.89px] lg:pb-[50px] md:pb-[40px] pb-[35px]' src={whyChooseImg} alt="image" />
           </div>
