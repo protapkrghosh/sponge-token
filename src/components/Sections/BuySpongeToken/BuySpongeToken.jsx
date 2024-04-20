@@ -10,7 +10,7 @@ const BuySpongeToken = () => {
           {/* Moon shape */}
           <div className='aboutMoonShape lg:w-[300px] lg:h-[300px] xl:w-[370px] xl:h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-40 lg:-top-5 lg:left-[650px] xl:left-[800px] 2xl:left-[750px] hidden lg:block' />
 
-          <h1 className='text-[#fff] lg:text-[64px] md:text-[45px] text-[42px] text-center font-TTRoundsNeue font-bold' data-aos="fade-up" data-aos-duration="1000">How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
+          <h1 className='text-[#fff] lg:text-[64px] md:text-[45px] text-[42px] text-center font-TTRoundsNeue font-bold'>How to buy<span className='text-[#FDF44E]'> SPONGE Token</span></h1>
 
           <div className='lg:flex justify-between items-center gap-7 mt-14'>
             <div className='lg:w-[57%]'>
@@ -40,7 +40,7 @@ const BuySpongeToken = () => {
 
             <div className='lg:w-[43%]'>
               <div className='hidden lg:block'>
-                <img src={spongeKid} alt="Image" className='xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' data-aos="zoom-in" data-aos-duration="1000" />
+                <img src={spongeKid} alt="Image" className='animationImg xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' />
               </div>
 
               <div>
@@ -53,7 +53,7 @@ const BuySpongeToken = () => {
 
 
                 <div className='block lg:hidden mt-20'>
-                  <img src={spongeKid} alt="Image" className='xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' data-aos="zoom-in" data-aos-duration="1000" />
+                  <img src={spongeKid} alt="Image" className='xl:pb-[10px] lg:pb-[32px] w-[410px] 2xl:w-[72%] xl:w-[85%] lg:w-[98%] mx-auto' />
                 </div>
               </div>
             </div>
