@@ -319,11 +319,11 @@ const Banner = () => {
 
             <div className='relative'>
               {/* Shape Image */}
-              <img src={aboutNetShapeImg} alt="Image" className='absolute left-[350px] lg:left-[450px] xl:left-[630px] top-36 lg:top-52 xl:top-36 w-[370px] lg:w-[220px] xl:w-[370px] hidden lg:block' data-aos="zoom-in" data-aos-duration="1200" />
+              <img src={aboutNetShapeImg} alt="Image" className='absolute left-[350px] lg:left-[450px] xl:left-[630px] top-36 lg:top-52 xl:top-36 w-[370px] lg:w-[220px] xl:w-[370px] hidden lg:block' />
 
               <div className='lg:flex justify-between items-center lg:px-12'>
                 <div className='lg:w-1/2'>
-                  <h1 className='text-white text-[38px] xl:text-[70px] font-bold font-TTRoundsNeue uppercase' data-aos="fade-up" data-aos-duration="1000">Abo<span className='text-[#FDF44E]'>ut us</span></h1>
+                  <h1 className='text-white text-[38px] xl:text-[70px] font-bold font-TTRoundsNeue uppercase'>Abo<span className='text-[#FDF44E]'>ut us</span></h1>
 
                   <div className='text-[#fff] text-[15px] xl:text-[18px] font-poppins space-y-4 mt-6'>
                     <p className=' 2xl:w-[95%]'>Welcome to Sponge coin, where innovation meets opportunity. As a leading player in the burgeoning world of decentralized finance (DeFi), Sponge coin is committed to pioneering solutions that empower individuals and communities worldwide.</p>
@@ -332,7 +332,7 @@ const Banner = () => {
                   </div>
                 </div>
 
-                <div className='lg:w-1/2 flex justify-end md:mt-8 lg:mt-0' data-aos="fade-up" data-aos-duration="1000">
+                <div className='lg:w-1/2 flex justify-end md:mt-8 lg:mt-0'>
                   <img src={aboutKids} alt="Image" className='w-[75%] xl:w-[75%] 2xl:w-[70%] mt-10 2xl:mt-20 mx-auto lg:mx-0' />
                 </div>
               </div>
