@@ -87,11 +87,11 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="tokenomics" smooth={true} offset={0} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer ${activeLink === "tokenomics" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
+                <Link to="buy" smooth={true} offset={-100} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer ${activeLink === "buy" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("buy")}>How to buy</Link>
               </li>
 
               <li>
-                <Link to="buy" smooth={true} offset={-100} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer ${activeLink === "buy" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("buy")}>How to buy</Link>
+                <Link to="tokenomics" smooth={true} offset={0} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer ${activeLink === "tokenomics" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("tokenomics")}>Tokenomics</Link>
               </li>
 
               <li>
