@@ -112,7 +112,7 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link to="roadmap" smooth={true} offset={-5} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer  ${activeLink === "roadmap" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("roadmap")}>Roadmap</Link>
+                <Link to="roadmap" smooth={true} offset={5} duration={600} className={`2xl:text-[18px] font-poppins duration-300 cursor-pointer  ${activeLink === "roadmap" ? 'text-[#FDF44E]' : 'text-[#FFF] hover:text-[#FDF44E] duration-200'}`} onClick={() => setActiveLink("roadmap")}>Roadmap</Link>
               </li>
 
               <div className="block md:hidden">
