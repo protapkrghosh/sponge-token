@@ -148,11 +148,11 @@ const Banner = () => {
                     </button>
                   </Link>
 
-                  <button className="text-[#000] hover:text-[#fff] bg-[#fff] hover:bg-transparent border-2 border-transparent hover:border-[#fff] rounded-full group cursor-pointer px-7 md:px-12 py-[10px] md:py-[14px] duration-300">
+                  <a href='https://t.me/solanasponge' target='_blank' className="text-[#000] hover:text-[#fff] bg-[#fff] hover:bg-transparent border-2 border-transparent hover:border-[#fff] rounded-full group cursor-pointer px-7 md:px-12 py-[10px] md:py-[14px] duration-300">
                     <span className="flex justify-center items-center">
                       <p className='md:text-[18px] 2xl:text-[19px] font-poppins font-semibold mr-2'>Telegram</p>
                     </span>
-                  </button>
+                  </a>
                 </div>
               </div>
 
