@@ -43,11 +43,15 @@ const Footer = () => {
               </div>
 
               {/* Action button */}
-              <Link to="home" smooth={true} offset={-30} duration={600}>
-                <div className='flex items-center'>
-                  <Button className="bg-[#152745] hover:bg-[#1c325f] text-[16px] font-TTRoundsNeue font-normal duration-300">Buy Now</Button>
-                </div>
-              </Link>
+              <div className='flex items-center'>
+                <a href="https://t.me/solanasponge" target='_blank' className='border-2 border-[#FDF44E] rounded-[10px] hover:bg-[#1c325f] text-white mr-4 p-4 duration-300'>
+                  <PiTelegramLogoThin className='text-[23px]' />
+                </a>
+
+                <a href="https://twitter.com/SolanaSponge" target='_blank' className='border-2 border-[#FDF44E] rounded-[10px] hover:bg-[#1c325f] text-white p-4 duration-300'>
+                  <FaXTwitter className='text-[23px]' />
+                </a>
+              </div>
             </div>
           </div>
         </div>
