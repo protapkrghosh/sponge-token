@@ -134,28 +134,6 @@ const Banner = () => {
               <div className='lg:w-1/2 mt-20 lg:mt-0 z-40'>
                 <h1 className='text-[31px] md:text-[46px] lg:text-[39px] xl:text-[50px] 2xl:text-[54px] text-white text-center lg:text-start font-TTRoundsNeue font-black tracking-wider uppercase'>Aye-aye, captain! Buy some <span className='text-[#FDF44E]'>$SPONGE!</span></h1>
 
-                {/* <div className='text-[15px] md:text-[16px] xl:text-[16px] 2xl:text-[18px] text-white font-poppins text-center lg:text-start md:w-[93%] lg:w-[90%] xl:w-[95%] 2xl:w-full mt-7 mb-12 space-y-5 mx-auto lg:mx-0'>
-                  <p>We're thrilled to introduce you to a revolutionary digital asset built on the Solana blockchain: the $SPONGE coin.</p>
-
-                  <p>Innovation, efficiency, and sustainability in the ever-evolving world of decentralized finance. With lightning-fast transaction speeds and minimal fees.</p>
-                </div> */}
-
-                {/* <div className='flex justify-center lg:justify-start space-x-5'>
-                  <Link to="home" smooth={true} offset={-30} duration={600}>
-                    <button className="text-[#000] hover:text-[#fff] bg-[#FDF44E] hover:bg-transparent border-2 border-transparent hover:border-[#FDF44E] rounded-full group cursor-pointer px-7 md:px-12 py-[10px] md:py-[14px] duration-300">
-                      <span className="flex justify-center items-center">
-                        <p className='md:text-[18px] 2xl:text-[19px] font-poppins font-semibold mr-2'>Buy now</p>
-                      </span>
-                    </button>
-                  </Link>
-
-                  <a href='https://t.me/solanasponge' target='_blank' className="text-[#000] hover:text-[#fff] bg-[#fff] hover:bg-transparent border-2 border-transparent hover:border-[#fff] rounded-full group cursor-pointer px-7 md:px-12 py-[10px] md:py-[14px] duration-300">
-                    <span className="flex justify-center items-center">
-                      <p className='md:text-[18px] 2xl:text-[19px] font-poppins font-semibold mr-2'>Telegram</p>
-                    </span>
-                  </a>
-                </div> */}
-
                 <div className='flex justify-center lg:justify-normal'>
                   <img src={spongeImg} alt="Image" className='animationImg w-[80%] md:w-[360px] lg:w-[350px] xl:w-[400px] 2xl:w-auto mt-8 ml-9 2xl:ml-12 block lg:hidden' />
 
