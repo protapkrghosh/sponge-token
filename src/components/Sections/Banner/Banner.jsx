@@ -157,7 +157,9 @@ const Banner = () => {
                 </div> */}
 
                 <div className='flex justify-center lg:justify-normal'>
-                  <img src={spongeImg} alt="Image" className='animationImg w-[80%] md:w-[360px] lg:w-[350px] xl:w-[400px] 2xl:w-auto mt-8 ml-9 2xl:ml-12' />
+                  <img src={spongeImg} alt="Image" className='animationImg w-[80%] md:w-[360px] lg:w-[350px] xl:w-[400px] 2xl:w-auto mt-8 ml-9 2xl:ml-12 block lg:hidden' />
+
+                  <img src={spongeImg} alt="Image" className='w-[80%] md:w-[360px] lg:w-[350px] xl:w-[400px] 2xl:w-auto mt-8 ml-9 2xl:ml-12 hidden lg:block' />
                 </div>
               </div>
 
