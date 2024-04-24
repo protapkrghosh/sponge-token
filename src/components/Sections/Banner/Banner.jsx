@@ -1,6 +1,7 @@
 import aboutPath from '@/assets/aboutUs/overlay.png'
 import aboutKids from '@/assets/aboutUs/My_Kids_Learned.png'
 import clipBgBorder from '@/assets/aboutUs/Rectangle 8818.png'
+import spongeImg from '@/assets/banner/spongebob.png'
 import ellipse from '@/assets/banner/Ellipse 2.png'
 import arrowImg from "@/assets/banner/Group 10.png"
 import logoImg from "@/assets/banner/logo.png"
@@ -117,9 +118,9 @@ const Banner = () => {
       <div className='relative overflow-hidden z-40' id='home'>
 
         {/* Moon shape */}
-        <div className='bannerSpongeMoonRight lg:w-[300px] lg:h-[300px] xl:w-[370px] xl:h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-40 lg:top-48 xl:top-40 2xl:top-20 lg:left-[195px]  xl:left-[300px] 2xl:left-[500px] hidden lg:block' />
+        <div className='bannerSpongeMoonRight lg:w-[300px] lg:h-[300px] xl:w-[370px] xl:h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-40 lg:top-48 xl:top-32 2xl:top-16 lg:left-[205px] xl:left-[310px] 2xl:left-[500px] hidden lg:block' />
 
-        <div className='bannerSpongeMoonLeft w-[370px] h-[370px] lg:w-[300px] lg:h-[300px] xl:w-[370px] xl:h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-[400px] lg:top-[470px] xl:top-[400px] 2xl:top-[335px] 2xl:left-[220px] hidden lg:block' />
+        <div className='bannerSpongeMoonLeft w-[370px] h-[370px] lg:w-[300px] lg:h-[300px] xl:w-[370px] xl:h-[370px] 2xl:w-[497px] 2xl:h-[497px] absolute top-[400px] lg:top-[460px] xl:top-[440px] 2xl:top-[360px] lg:left-[50px] xl:left-[70px] 2xl:left-[270px] hidden lg:block' />
 
         {/* Shadow and background */}
         <div className='h-[175vh] md:h-[265vh] lg:h-[185vh] xl:h-[160vh] 2xl:h-[130vh]'>
@@ -133,13 +134,13 @@ const Banner = () => {
               <div className='lg:w-1/2 mt-20 lg:mt-0 z-40'>
                 <h1 className='text-[31px] md:text-[46px] lg:text-[39px] xl:text-[50px] 2xl:text-[54px] text-white text-center lg:text-start font-TTRoundsNeue font-black tracking-wider uppercase'>Aye-aye, captain! Buy some <span className='text-[#FDF44E]'>$SPONGE!</span></h1>
 
-                <div className='text-[15px] md:text-[16px] xl:text-[16px] 2xl:text-[18px] text-white font-poppins text-center lg:text-start md:w-[93%] lg:w-[90%] xl:w-[95%] 2xl:w-full mt-7 mb-12 space-y-5 mx-auto lg:mx-0'>
+                {/* <div className='text-[15px] md:text-[16px] xl:text-[16px] 2xl:text-[18px] text-white font-poppins text-center lg:text-start md:w-[93%] lg:w-[90%] xl:w-[95%] 2xl:w-full mt-7 mb-12 space-y-5 mx-auto lg:mx-0'>
                   <p>We're thrilled to introduce you to a revolutionary digital asset built on the Solana blockchain: the $SPONGE coin.</p>
 
                   <p>Innovation, efficiency, and sustainability in the ever-evolving world of decentralized finance. With lightning-fast transaction speeds and minimal fees.</p>
-                </div>
+                </div> */}
 
-                <div className='flex justify-center lg:justify-start space-x-5'>
+                {/* <div className='flex justify-center lg:justify-start space-x-5'>
                   <Link to="home" smooth={true} offset={-30} duration={600}>
                     <button className="text-[#000] hover:text-[#fff] bg-[#FDF44E] hover:bg-transparent border-2 border-transparent hover:border-[#FDF44E] rounded-full group cursor-pointer px-7 md:px-12 py-[10px] md:py-[14px] duration-300">
                       <span className="flex justify-center items-center">
@@ -153,6 +154,10 @@ const Banner = () => {
                       <p className='md:text-[18px] 2xl:text-[19px] font-poppins font-semibold mr-2'>Telegram</p>
                     </span>
                   </a>
+                </div> */}
+
+                <div className='flex justify-center lg:justify-normal'>
+                  <img src={spongeImg} alt="Image" className='w-[80%] md:w-[370px] lg:w-[350px] xl:w-[400px] 2xl:w-auto mt-8 ml-9 2xl:ml-12' />
                 </div>
               </div>
 
@@ -306,7 +311,7 @@ const Banner = () => {
 
 
       {/********************** About us ***********************/}
-      <div className='-mt-10 lg:-mt-20 xl:-mt-32 2xl:-mt-52' id='about'>
+      <div className='-mt-10 md:mt-0 lg:-mt-20 xl:-mt-32 2xl:-mt-52' id='about'>
         <Container>
           <div>
             <div className='-mb-[460px] 2xl:-mb-[480px] hidden lg:block'>
