@@ -240,10 +240,6 @@ const Banner = () => {
 
                         <div className='flex justify-between mt-6 mb-3'>
                           <p className='text-white font-inter font-normal'>Amount in SOL you pay:</p>
-                          {/* <div className='flex items-center'>
-                        <img src={walletImg} alt="Image" />
-                        <p className='text-white font-normal ml-1'>0.00 SOL</p>
-                      </div> */}
                         </div>
 
                         {/* SOL Input */}
@@ -255,7 +251,7 @@ const Banner = () => {
 
                           {/* SOL input filed */}
                           <div className='rounded-[5px]'>
-                            <Input id="myInput" placeholder="0.00" className="text-white placeholder:text-white placeholder:text-opacity-65 text-end border-none bg-[#0C2251] cusShadow rounded-[5px]" />
+                            <Input id="myInput" placeholder="0" className="text-white placeholder:text-white placeholder:text-opacity-65 text-end border-none bg-[#0C2251] cusShadow rounded-[5px]" />
                           </div>
                         </div>
 
@@ -277,7 +273,7 @@ const Banner = () => {
                           <div className='relative'>
                             <div className='flex items-center absolute mt-[5px] bg-[#15274d] cusShadow px-4 py-1 ml-2 rounded-[8px]'>
                               <img src={logoImg} alt="Image" className='w-[32px]' />
-                              <p className='text-white font-inter font-normal ml-2 uppercase'>Sponge</p>
+                              <p className='text-white font-inter font-normal ml-2 uppercase'>SPO</p>
                             </div>
 
 
